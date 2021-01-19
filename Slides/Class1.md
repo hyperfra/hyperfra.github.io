@@ -63,7 +63,7 @@ We learn the implications for benchmark questions on
 #### Infinite horizon - continuous time
 Sketch of the model: the social planner problem is the simplest version maximizes
 
-$$ U(0)	=\int_{0}^{\infty}e^{-\rho t}u(c(t))dt $$
+<img src="https://render.githubusercontent.com/render/math?math=U(0)=\int_{0}^{\infty}e^{-\rho t}u(c(t))dt">
 
 s.t.	
 
