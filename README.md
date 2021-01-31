@@ -1,4 +1,5 @@
 # Francesco Franco 
+![foto](assets/foto2.png)
 
 ## Courses
 [Empirical Macreconomics](https://github.com/hyperfra/Empirical_Macroeconomics)
