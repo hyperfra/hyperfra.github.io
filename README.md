@@ -1,5 +1,5 @@
-<a class="muted-link" href="#url">muted-link</a>
-# Let me introduce [myself](https://www.youtube.com/watch?v=GgnClrx8N2k)
+
+# Let me introduce <a class="muted-link" href="https://www.youtube.com/watch?v=GgnClrx8N2k">myself</a>
 
 <img src="assets/foto2.png" width="80">
 
