@@ -10,3 +10,7 @@
 
 [Economics For Policy](https://economicsforpolicy.novasbe.pt/)
 
+## Think Tank
+
+[Institute of Public Policy](https://www.ipp-jcs.org/en/home-page_en/)
+
