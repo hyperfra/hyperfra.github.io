@@ -1,4 +1,4 @@
-# Let me introduce my-self
+# Let me introduce myself
 
 <img src="assets/foto2.png" width="80">
 
