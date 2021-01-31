@@ -1,6 +1,6 @@
 # Francesco Franco
 
-![foto](assets/foto2.png =100x20)
+<img src="assets/foto2.png" width="80">
 
 ## Courses
 [Empirical Macreconomics](https://github.com/hyperfra/Empirical_Macroeconomics)
