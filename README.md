@@ -1,5 +1,5 @@
 
-# Let me introduce <a class="link-gray" href="https://www.youtube.com/watch?v=GgnClrx8N2k">myself</a>
+# Let me introduce <a class="link-gray-dark" href="https://www.youtube.com/watch?v=GgnClrx8N2k">myself</a>
 
 <img src="assets/foto2.png" width="80">
 
