@@ -1,8 +1,8 @@
 # Let me introduce <a class="link-gray-dark" href="https://www.youtube.com/watch?v=GgnClrx8N2k">myself</a>
 
-<img src="assets/foto2.png" width="80">
+<img src="assets/images/foto2.png" width="80">
 
-[cv](assets/cv.pdf)
+[cv](assets/images/cv.pdf)
 
 ## My Courses @ Nova SBE
 [Empirical Macreconomics](https://github.com/hyperfra/Empirical_Macroeconomics)
