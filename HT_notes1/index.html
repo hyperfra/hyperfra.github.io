@@ -1,106 +1,464 @@
+
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        <link rel="canonical" href="https://hyperfra.github.io/HT_notes1/">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>HET - Francesco Franco Classes</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/fontawesome.min.css" rel="stylesheet">
-        <link href="../css/brands.min.css" rel="stylesheet">
-        <link href="../css/solid.min.css" rel="stylesheet">
-        <link href="../css/v4-font-face.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
 
-    <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="..">Francesco Franco Classes</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a href=".." class="nav-link">Welcome to Francesco Franco Classes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">HET</a>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
-
-    
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Francesco Franco" name="author"/>
+<link href="https://hyperfra.github.io/HT_notes1/" rel="canonical"/>
+<link href=".." rel="prev"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.5.41" name="generator"/>
+<title>HET - Francesco Franco Classes</title>
+<link href="../assets/stylesheets/main.0253249f.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#history-of-economic-analysis">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Francesco Franco Classes" class="md-header__button md-logo" data-md-component="logo" href=".." title="Francesco Franco Classes">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Francesco Franco Classes
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
             
-            <li class="nav-item" data-bs-level="1"><a href="#history-of-economic-analysis" class="nav-link">History of Economic Analysis</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#introduction" class="nav-link">Introduction</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#part-i-the-age-of-political-economy" class="nav-link">PART I: The Age of Political Economy</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#political-economy" class="nav-link">Political Economy</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
-
-<h1 id="history-of-economic-analysis">History of Economic Analysis<a class="headerlink" href="#history-of-economic-analysis" title="Permanent link">&para;</a></h1>
-<p>[toc]</p>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
-<p>History of Economic Thought (HET) is today a very specialized field in economics pursued by a group of scholars who publish in technical journals and attend specialized conferences. The field is so special that only a few economics departments at major universities offer a HET course in their curriculum. If they do so, it is usually at the undergraduate level.<sup id="fnref:fn1"><a class="footnote-ref" href="#fn:fn1">1</a></sup> This view of HET is not recent; according to the great late economist Paul Samuelson (1915-2009), "History of thought was a dying industry" already in 1935 when he began his graduate studies in Chicago. Samuelson also thought that the field of economics "burst to life"  following "the monopolistic competition revolution, the Keynesian macro revolution, the mathematization revolution, and the econometric inference revolution," implying that what existed before these revolutions was not truly alive. More broadly, if economics is a cumulative scientific process, it implies that the present is "the latest and best final thing". If this view is correct, we should start from today's frontier to understand and study economics and not look back at past theories.</p>
+              HET
+            
+          </span>
+</div>
+</div>
+</div>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Francesco Franco Classes" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Francesco Franco Classes">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Francesco Franco Classes
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+<span class="md-ellipsis">
+    Welcome to Francesco Franco Classes
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    HET
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    HET
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#introduction">
+<span class="md-ellipsis">
+      Introduction
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#part-i-the-age-of-political-economy">
+<span class="md-ellipsis">
+      PART I: The Age of Political Economy
+    </span>
+</a>
+<nav aria-label="PART I: The Age of Political Economy" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ethics-350-bc-1500-ad">
+<span class="md-ellipsis">
+      Ethics (350 BC - 1500 AD)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interlude-from-ethics-to-reason-or-from-oikonomikos-to-political-economy">
+<span class="md-ellipsis">
+      Interlude: From Ethics to Reason, or from Oikonomikos to Political Economy
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#before-political-economy">
+<span class="md-ellipsis">
+      Before Political Economy
+    </span>
+</a>
+<nav aria-label="Before Political Economy" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mercantilism">
+<span class="md-ellipsis">
+      Mercantilism
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prices-and-the-quantity-theory">
+<span class="md-ellipsis">
+      Prices and the quantity theory
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#free-trade-the-price-specie-adjustment-mechanism">
+<span class="md-ellipsis">
+      Free Trade: The Price-Specie adjustment mechanism
+    </span>
+</a>
+<nav aria-label="Free Trade: The Price-Specie adjustment mechanism" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-price-specie-model-statement">
+<span class="md-ellipsis">
+      The price-specie model statement
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-price-specie-model-steady-state">
+<span class="md-ellipsis">
+      The price-specie model steady state
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-economy-as-a-circular-system-inputoutput">
+<span class="md-ellipsis">
+      The economy as a circular system - input/output
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#political-economy">
+<span class="md-ellipsis">
+      Political Economy
+    </span>
+</a>
+<nav aria-label="Political Economy" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adam-smith">
+<span class="md-ellipsis">
+      Adam Smith
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#thomas-malthus">
+<span class="md-ellipsis">
+      Thomas Malthus
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#david-ricardo">
+<span class="md-ellipsis">
+      David Ricardo
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#canonical-model-of-classical-growth-and-redistribution-samuelson">
+<span class="md-ellipsis">
+      Canonical Model of Classical Growth and Redistribution (Samuelson)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#karl-marx">
+<span class="md-ellipsis">
+      Karl Marx
+    </span>
+</a>
+<nav aria-label="Karl Marx" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#two-sectors-growth-model-samuelson">
+<span class="md-ellipsis">
+      Two sectors "growth" model (Samuelson)
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#references">
+<span class="md-ellipsis">
+      References
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#introduction">
+<span class="md-ellipsis">
+      Introduction
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#part-i-the-age-of-political-economy">
+<span class="md-ellipsis">
+      PART I: The Age of Political Economy
+    </span>
+</a>
+<nav aria-label="PART I: The Age of Political Economy" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ethics-350-bc-1500-ad">
+<span class="md-ellipsis">
+      Ethics (350 BC - 1500 AD)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interlude-from-ethics-to-reason-or-from-oikonomikos-to-political-economy">
+<span class="md-ellipsis">
+      Interlude: From Ethics to Reason, or from Oikonomikos to Political Economy
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#before-political-economy">
+<span class="md-ellipsis">
+      Before Political Economy
+    </span>
+</a>
+<nav aria-label="Before Political Economy" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mercantilism">
+<span class="md-ellipsis">
+      Mercantilism
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prices-and-the-quantity-theory">
+<span class="md-ellipsis">
+      Prices and the quantity theory
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#free-trade-the-price-specie-adjustment-mechanism">
+<span class="md-ellipsis">
+      Free Trade: The Price-Specie adjustment mechanism
+    </span>
+</a>
+<nav aria-label="Free Trade: The Price-Specie adjustment mechanism" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-price-specie-model-statement">
+<span class="md-ellipsis">
+      The price-specie model statement
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-price-specie-model-steady-state">
+<span class="md-ellipsis">
+      The price-specie model steady state
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-economy-as-a-circular-system-inputoutput">
+<span class="md-ellipsis">
+      The economy as a circular system - input/output
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#political-economy">
+<span class="md-ellipsis">
+      Political Economy
+    </span>
+</a>
+<nav aria-label="Political Economy" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adam-smith">
+<span class="md-ellipsis">
+      Adam Smith
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#thomas-malthus">
+<span class="md-ellipsis">
+      Thomas Malthus
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#david-ricardo">
+<span class="md-ellipsis">
+      David Ricardo
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#canonical-model-of-classical-growth-and-redistribution-samuelson">
+<span class="md-ellipsis">
+      Canonical Model of Classical Growth and Redistribution (Samuelson)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#karl-marx">
+<span class="md-ellipsis">
+      Karl Marx
+    </span>
+</a>
+<nav aria-label="Karl Marx" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#two-sectors-growth-model-samuelson">
+<span class="md-ellipsis">
+      Two sectors "growth" model (Samuelson)
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#references">
+<span class="md-ellipsis">
+      References
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="history-of-economic-analysis">History of Economic Analysis</h1>
+<h2 id="introduction">Introduction</h2>
+<p>History of Economic Thought (HET) is today a very specialized field in economics pursued by a group of scholars who publish in technical journals and attend specialized conferences. The field is so special that only a few economics departments at major universities offer a HET course in their curriculum. If they do so, it is usually at the undergraduate level.[^fn1] This view of HET is not recent; according to the great late economist Paul Samuelson (1915-2009), "History of thought was a dying industry" already in 1935 when he began his graduate studies in Chicago. Samuelson also thought that the field of economics "burst to life"  following "the monopolistic competition revolution, the Keynesian macro revolution, the mathematization revolution, and the econometric inference revolution," implying that what existed before these revolutions was not truly alive. More broadly, if economics is a cumulative scientific process, it implies that the present is "the latest and best final thing". If this view is correct, we should start from today's frontier to understand and study economics and not look back at past theories.</p>
 <p><em>But is this view correct? Should we focus solely on the current frontier of economics, or is there value in exploring the history of economic ideas?</em></p>
 <p>Another giant of economics, Joseph Schumpeter (1883-1950), who wrote the seminal "History of Economic Analysis" (1954), offers compelling reasons for studying HET:</p>
 <blockquote>
@@ -121,7 +479,7 @@ I also think that the exercise of rendering some older ideas into modern mathema
 </blockquote>
 <p>We will trace the development of two principal strands of intellectual effort in economics: deduction (first using philosophy, then using mathematics) and induction (first using direct empirical observation, then using statistical analysis).</p>
 <p><em>So let us embark on this fascinating journey through the history of economic analysis - exploring the key ideas, debates, and figures that shaped the evolution of economic thought, and in doing so, enriching our understanding of the economic forces that shape our world.</em></p>
-<h2 id="part-i-the-age-of-political-economy">PART I: The Age of Political Economy<a class="headerlink" href="#part-i-the-age-of-political-economy" title="Permanent link">&para;</a></h2>
+<h2 id="part-i-the-age-of-political-economy">PART I: The Age of Political Economy</h2>
 <p>The first part of our course is dedicated to the era known as the Age of Political Economy, the precursor to what we now call Economics.</p>
 <pre class="mermaid"><code>flowchart TD
      subgraph ide0 [ETHICS]
@@ -165,8 +523,8 @@ I also think that the exercise of rendering some older ideas into modern mathema
 <p>The figure above shows a tree diagram with some of the key thinkers we will encounter in Part I. The diamonds represent small mathematical models developed by Paul Samuelson to formalize specific ideas. While we won't delve into every author in equal depth, and you may not remember every detail, engaging with these original texts and models will provide a rich understanding of the foundations of economic thought. Models are oriented to economists while students with different background can skip them if they wish so.</p>
 <p>Before diving into the Age of Political Economy, it's essential to understand the intellectual landscape that preceded it. We will begin by examining the ethical and philosophical foundations laid in ancient Greece, which had a lasting impact on economic thought. These early ideas, particularly those of Aristotle, addressed crucial questions such as fair prices, usury, and the role of economics in society. Aristotle's works, including "Politics" and "Nicomachean Ethics," provided a more explicit and systematic treatment of economic issues than earlier thinkers, setting the stage for centuries of debate and development.</p>
 <p>Aristotle's ethical precepts on economic matters, such as the concept of a "fair price" and the prohibition of usury, became the bedrock of medieval economic thought in Europe. His ideas were later adopted and expanded upon by influential scholars like Thomas Aquinas, who integrated them into the framework of Christian theology and ethics.</p>
-<p>Following this, we will briefly explore the ideas of a few key 17<sup>th</sup>-century thinkers who paved the way for the emergence of Political Economy. While these examinations will be brief, they will highlight the crucial intellectual shifts that set the stage for the birth of this new field of inquiry.</p>
-<h3 id="ethics-350-bc-1500-ad">Ethics (350 BC - 1500 AD)<a class="headerlink" href="#ethics-350-bc-1500-ad" title="Permanent link">&para;</a></h3>
+<p>Following this, we will briefly explore the ideas of a few key 17th-century thinkers who paved the way for the emergence of Political Economy. While these examinations will be brief, they will highlight the crucial intellectual shifts that set the stage for the birth of this new field of inquiry.</p>
+<h3 id="ethics-350-bc-1500-ad">Ethics (350 BC - 1500 AD)</h3>
 <p>The two main economic questions we will focus on in this period are:</p>
 <ol>
 <li>What determines a fair price for a good in an exchange?</li>
@@ -243,12 +601,12 @@ I also think that the exercise of rendering some older ideas into modern mathema
 <p>For it is not two doctors that associate for exchange, but a doctor and a farmer, or in general people who are different and unequal; but these must be equated. This is why <strong>all things that are exchanged must be somehow comparable</strong>. It is for this end that <strong>money</strong> has been introduced, and it becomes in a sense an <strong>intermediate</strong>, for it <strong>measures</strong> all things, and therefore the excess and the defect-how many shoes are equal to a house or to a given amount of food. The number of shoes exchanged for a house (or for a given amount of food) must therefore correspond to the ratio of builder to shoemaker. For if this be not so, there will be no exchange and no intercourse.[...] All goods must therefore be measured by someone thing, as we said before. Now <strong>this unit is in truth demand</strong>, which holds all things together (for if men did not need one another's goods at all, or did not need them equally, there would be either no exchange or not the same exchange); but <strong>money has become by convention a sort of representative of demand</strong>.
  <em>The Nichomachean Ethics, Book V-5</em></p>
 </blockquote>
-<p>These negative ethical views on an exchange, if the exchange is not executed at a fair price, and on interest rates, will have long-lasting consequences. For centuries scholars will try to explain how prices are determined, if these prices are fair, and why it is just to charge an interest rate. In the ideas of economics, there will be not much progress for 1500 years. While Western Europe descended into the Dark Ages in the 5<sup>th</sup>-6<sup>th</sup> C., the doctrines of classical philosophy were resurrected by Islamic scholars. Through them, the 13<sup>th</sup> and 14<sup>th</sup> century Scholastic theologians recovered classical Greek works and brought their thinking (notably Aristotle) back into the mainstream of European intellectual life. Here, the classic reference is <strong>Thomas Aquinas (1224-1274)</strong>. In his monumental Summa Theologica, he represents the idea that gain by trade is seen as deplorable, maybe even in a stronger sense as it can be, and even a sin. In his words:</p>
+<p>These negative ethical views on an exchange, if the exchange is not executed at a fair price, and on interest rates, will have long-lasting consequences. For centuries scholars will try to explain how prices are determined, if these prices are fair, and why it is just to charge an interest rate. In the ideas of economics, there will be not much progress for 1500 years. While Western Europe descended into the Dark Ages in the 5th-6th C., the doctrines of classical philosophy were resurrected by Islamic scholars. Through them, the 13th and 14th century Scholastic theologians recovered classical Greek works and brought their thinking (notably Aristotle) back into the mainstream of European intellectual life. Here, the classic reference is <strong>Thomas Aquinas (1224-1274)</strong>. In his monumental Summa Theologica, he represents the idea that gain by trade is seen as deplorable, maybe even in a stronger sense as it can be, and even a sin. In his words:</p>
 <blockquote>
 <p>We must now consider those sins which relate to voluntary commutations. First, we shall consider cheating, which is committed in buying and selling: secondly, we shall consider usury, which occurs in loans. In connection with the other voluntary commutations no special kind of sin is to be found distinct from rapine and theft. Under the first head there are four points of inquiry: (1) Of unjust sales as regards the <strong>price</strong>; namely, whether it is lawful to sell a thing for more than its worth? (2) Of unjust sales on the part of the thing sold; (3) Whether the seller is bound to reveal a fault in the thing sold? (4) Whether it is lawful in trading to sell a thing at a higher <strong>price</strong> than was paid for it?
  <em>Summa Theologica - By Sins Committed in Buying and Selling  Q77, T. Aquinas</em></p>
 <p>We must now consider the sin of <strong>usury</strong>, which is committed in <strong>loans</strong>: and under this head there are four points of inquiry: (1) Whether it is a sin to take money as a price for money lent, which is to receive usury? (2) Whether it is lawful to lend money for any other kind of consideration, by way of payment for the loan? (3) Whether a man is bound to restore just gains derived from money taken in usury? (4) Whether it is lawful to borrow money under a condition of usury?[...] I answer that, <strong>To take usury for money lent is unjust in this is to sell what does not exist, and this evidently leads to inequality which is contrary to justice.</strong>
- <em>Summa Theologica - By Sins Committed in Loans Q78, T. Aquinas</em> </p>
+<em>Summa Theologica - By Sins Committed in Loans Q78, T. Aquinas</em> </p>
 </blockquote>
 <p>These views echo Aristotle and had implications for the development of trade. And again, lending for interest was seen as an aberration,  having long-lasting implications for the development of finance. There were attempts to overcome this logic by arguing that interests were remunerating time (but time is a common good) or compensation for a default/accident probability, <em>damnum emergens</em>.  Slowly Europe was beginning to crawl out of the Dark Ages. Trade was re-emerging, and with it came a new class of people - merchants, with fortunes - who seemed to have no assigned place in the traditional feudal order. And so some Scholastics deployed their new knowledge to try to make sense of this strange new world of markets and money and take different views than Aquinas. </p>
 <p>These restrictive attitudes began to change with the Renaissance and the rise of a new philosophical approach based on reason and empiricism. A momentous shift was underway, from the religious and ethical concerns of the medieval world to a new paradigm that would give birth to Political Economy...</p>
@@ -260,8 +618,8 @@ I also think that the exercise of rendering some older ideas into modern mathema
     B --&gt; E
     E --RUPTURE--- C[Scientific Revolution]
     C ==&gt; H[POLITICAL ECONOMY]</code></pre>
-<h3 id="interlude-from-ethics-to-reason-or-from-oikonomikos-to-political-economy">Interlude: From Ethics to Reason, or from <em>Oikonomikos</em> to Political Economy<a class="headerlink" href="#interlude-from-ethics-to-reason-or-from-oikonomikos-to-political-economy" title="Permanent link">&para;</a></h3>
-<p>Let me take a small detour from the HET and present a small series of extracts from Renaissance thinkers. A sharp turning away from the medieval tradition that put God and the afterlife at the center of everything occurred during the 15<sup>th</sup> century. This new vision is revealed with flamboyant confidence by <strong>Pico della Mirandola</strong> (1463-1494) a Florentine thinker who wrote </p>
+<h3 id="interlude-from-ethics-to-reason-or-from-oikonomikos-to-political-economy">Interlude: From Ethics to Reason, or from <em>Oikonomikos</em> to Political Economy</h3>
+<p>Let me take a small detour from the HET and present a small series of extracts from Renaissance thinkers. A sharp turning away from the medieval tradition that put God and the afterlife at the center of everything occurred during the 15th century. This new vision is revealed with flamboyant confidence by <strong>Pico della Mirandola</strong> (1463-1494) a Florentine thinker who wrote </p>
 <blockquote>
 <p>We (God) have made you a creature neither of heaven nor of earth, neither mortal nor immortal, in order that you may,  as the free and proud shaper of your own being, fashion yourself in the form you may prefer.  It will be in your power to descend to the lower, brutish forms of life; you will be able, through your own decision,  to rise again to the superior orders whose life is divine. (the man answers) Oh unsurpassed generosity of God the Father,   oh wondrous and unsurpassable felicity of man, to whom it is granted to have what he chooses, to be what he wills to be!
 On the Dignity of Man (1480)</p>
@@ -274,18 +632,18 @@ The Prince (1532)</p>
 </blockquote>
 <p>Machiavelli is basically saying that we can control our own fate. </p>
 <p>Francis Bacon, although influenced by Machiavelli, tilts the balance towards reason. He urges human beings to employ their reason to force nature to give up its secrets. To master nature in order to improve man's material life. He assumes that such a course will lead to progress and the general improvement of the human condition. That sort of thinking lay at the heart of the scientific revolution and remains the faith upon which modern science and technology rests. A couple of other English political philosophers, Hobbs and Locke, applied a similar novelty and modernity to the sphere of politics. They based their understanding on the common passions of man for comfortable self-preservation and discovering something they called natural rights that belonged to a man either as part of nature or as the gift of a benevolent and a reasonable god. Man was seen as a solitary creature, not inherently a part of society. In that environment of emancipation where the speculative method applies and rational deductive procedure is applied to an object of study, some wanted <strong>to emancipate economics from the individual sphere and project it also to public activity.</strong></p>
-<h3 id="before-political-economy">Before Political Economy<a class="headerlink" href="#before-political-economy" title="Permanent link">&para;</a></h3>
-<p>In the 17<sup>th</sup> and 18<sup>th</sup> centuries, a diverse group of thinkers - philosophers, public servants, merchants, and even physicians - sought to understand the economy in a more systematic and analytical way. Moving beyond the narrow ethical concerns of earlier periods, they asked new questions about the sources of national wealth, the effects of government intervention, the role of money and trade, and the flows of goods and money between sectors. This marked the birth of Political Economy as a distinct field of inquiry. One of the first question regarded foreign trade.</p>
-<h4 id="mercantilism">Mercantilism<a class="headerlink" href="#mercantilism" title="Permanent link">&para;</a></h4>
-<p>In the 17<sup>th</sup> century, one puzzling question was the performance of the Dutch. Holland was a small country that had only come into existence in the 1580s after a revolt against its Spanish Hapsburg rulers.  But it had managed to spectacularly transform itself into one of the wealthiest countries in the world, with outposts that stretched across the globe, from Nagasaki to New Amsterdam, from the Artic Circle to South Africa, and whose citizens enjoyed probably the highest standard of living of that time. Holland had a small population, very little land, and virtually no natural resources. However, Holland maintained a favorable balance of trade with foreign countries: they exported expensive 'high-value' manufactured goods (notably finished cloth and iron goods like tools, guns, etc.) and only imported cheap 'low-value' primary commodities (raw wool and iron ore, inputs needed for their industries). That meant foreign money (gold &amp; silver) constantly flowed into Holland. The 'Mercantilist' policy formula was quickly devised: Export as much as possible and import as little as possible. Make sure your exports are high-value goods – luxuries, manufactures – which will bring in a lot of money. If you must import, import only essential low-value goods that are absolutely necessary for your industries – that is, only raw materials and other basic necessities you simply cannot find at home.</p>
+<h3 id="before-political-economy">Before Political Economy</h3>
+<p>In the 17th and 18th centuries, a diverse group of thinkers - philosophers, public servants, merchants, and even physicians - sought to understand the economy in a more systematic and analytical way. Moving beyond the narrow ethical concerns of earlier periods, they asked new questions about the sources of national wealth, the effects of government intervention, the role of money and trade, and the flows of goods and money between sectors. This marked the birth of Political Economy as a distinct field of inquiry. One of the first question regarded foreign trade.</p>
+<h4 id="mercantilism">Mercantilism</h4>
+<p>In the 17th century, one puzzling question was the performance of the Dutch. Holland was a small country that had only come into existence in the 1580s after a revolt against its Spanish Hapsburg rulers.  But it had managed to spectacularly transform itself into one of the wealthiest countries in the world, with outposts that stretched across the globe, from Nagasaki to New Amsterdam, from the Artic Circle to South Africa, and whose citizens enjoyed probably the highest standard of living of that time. Holland had a small population, very little land, and virtually no natural resources. However, Holland maintained a favorable balance of trade with foreign countries: they exported expensive 'high-value' manufactured goods (notably finished cloth and iron goods like tools, guns, etc.) and only imported cheap 'low-value' primary commodities (raw wool and iron ore, inputs needed for their industries). That meant foreign money (gold &amp; silver) constantly flowed into Holland. The 'Mercantilist' policy formula was quickly devised: Export as much as possible and import as little as possible. Make sure your exports are high-value goods – luxuries, manufactures – which will bring in a lot of money. If you must import, import only essential low-value goods that are absolutely necessary for your industries – that is, only raw materials and other basic necessities you simply cannot find at home.</p>
 <p>The Mercantilists expected - or demanded - that the government take an active role in this, and make "protectionism" a central part of government policy.  The government was at various times by different authors called upon to forbid or restrict anybody from taking money out of the country by all sorts of controls and laws,  impose tariffs and quotas to discourage imports and hand out export subsidies ('bounties') to domestic exporters. In an extreme version of mercantilism, Bullionism, Gold is identified as the primary form of wealth and the primary policy prescription is to run an external surplus. You could run deficits with countries that were providing raw materials if it permitted to run surpluses with others. An important mercantilist was <strong>Thomas Mun</strong> (1571-1641) who was for a time the director of the East India Company.</p>
 <blockquote>
 <p>Although a Kingdom may be enriched by gifts received, or by purchase taken from some other Nations,  yet these things are uncertain and of small consideration when they happen. <strong>The ordinary means therefore to encrease our wealth and treasure is by Forraign Trade</strong>, wherein <strong>we must ever observe this rule: to sell more to strangers yearly than we consume of theirs in value</strong>.  For suppose that when this Kingdom is plentifully served with the Cloth, Lead, Tinn, Iron, Fish and other native commodities, we doe yearly export the overplus to forraign Countries to the value of twenty two hundred thousand pounds;  by which means we are enabled beyond the Seas to buy and bring in forraign wares for our use and Consumptions,  to the value of twenty hundred thousand pounds; By this order duly kept in our trading, we may rest assured that the Kingdom shall be enriched yearly two hundred thousand pounds, which must be brought to us in so much Treasure;  because that part of our stock which is not returned to us in wares must necessarily be brought home in treasure.
 England Treasure by Forraign Trade - Chapter II, The means to enrich this Kingdom, and to encrease our Treasure, T. Mun</p>
 </blockquote>
 <p>This view favors the merchants, hence the name mercantilism, which basically prescribes protectionism,  and led to the creation of great national companies such as the British East India Company in 1600.  They also recommended that the government actively help domestic private businessmen set up high-value import-substitution and export-oriented industries. The crown was urged to subsidize these industries, whether directly or indirectly. Infrastructure investment, like roads and ports, to facilitate the export trade, was to be encouraged.  In order to minimize "destructive competition" at home, many Mercantilists believed that charter companies had a better chance of succeeding abroad if they were granted a charter with exclusive government-guaranteed monopolies over particular areas of industry and trade.  The Mercantilist emphasis on trade surpluses and government intervention would soon face challenges from a new generation of thinkers who saw free trade and market forces as the keys to national prosperity.</p>
-<h3 id="prices-and-the-quantity-theory">Prices and the quantity theory<a class="headerlink" href="#prices-and-the-quantity-theory" title="Permanent link">&para;</a></h3>
-<p>Quickly reverse thinking occurred: <strong>towards the end of the 17<sup>th</sup> century, the idea that state intervention was harmful to economic development started to spread.</strong> Economic thinking also started to be more analytical, for example, the effort to understand how prices were determined returned in vogue leaning towards the explanation that prices were determined by production more than demand factors. - Intrinsic value, or fundamental value is the price as the value of production although market price can differ depending on demand factors. Here is what <strong>Richard Cantillon</strong> (1680-1734) has to say about the determination of prices:</p>
+<h3 id="prices-and-the-quantity-theory">Prices and the quantity theory</h3>
+<p>Quickly reverse thinking occurred: <strong>towards the end of the 17th century, the idea that state intervention was harmful to economic development started to spread.</strong> Economic thinking also started to be more analytical, for example, the effort to understand how prices were determined returned in vogue leaning towards the explanation that prices were determined by production more than demand factors. - Intrinsic value, or fundamental value is the price as the value of production although market price can differ depending on demand factors. Here is what <strong>Richard Cantillon</strong> (1680-1734) has to say about the determination of prices:</p>
 <blockquote>
 <p>If <strong>two Acres of Land are of equal goodness</strong>, one will feed as many Sheep and produce as much Wool as the other, <strong>supposing the Labour to be the same</strong>, and the Wool produced by one Acre will sell at the <strong>same price</strong> as that produced by the other. If the Wool of the one acre is made into a suit of coarse Cloth and the Wool of the other into a suit of fine Cloth, as the latter will require <strong>more work and dearer workmanship</strong> it will be sometimes <strong>ten times dearer</strong>,  though both contain the same quantity and quality of Wool. [...] The price of a pitcher of Seine Water is nothing, because there is an immense supply which does not dry up;  but in the Streets of Paris people give a sou for it—the price or measure of the Labour of the Water carrier. By these examples and inductions it will, I think, be understood that <strong>the Price or intrinsic value of a thing is the measure of the quantity of Land and Labour entering into its production, having regard to the fertility or produce of the Land and to the quality of the Labour</strong>. <strong>But it often happens that many things which have actually this intrinsic value are not sold on the Market according to that value: that will depend on the Humours and Fancies of men and on their consumption</strong>.</p>
 <p>Essay on the Nature of Commerce Part I, Chapter X</p>
@@ -297,10 +655,10 @@ England Treasure by Forraign Trade - Chapter II, The means to enrich this Kingdo
 </blockquote>
 <p>This line of reasoning can be cast in our first equation, the famous 
 $$
-M*\gamma = P*Q
+M<em>\gamma = P</em>Q
 $$</p>
 <p>where <em>M</em> is money, <span class="arithmatex">\(\gamma\)</span> velocity, <em>P</em> price level, and <em>Q</em> output (the level of activity).  The first algebraic rendering of this equation is probably due to irving Fisher in 1911. Reading the passage above, we understand that Cantillon debates on what adjusts and when.  He says that an increase in Money Supply will ultimately result in an increase in Prices, but will also increase activity in the short run. We will use this equation in our first model just below. </p>
-<h3 id="free-trade-the-price-specie-adjustment-mechanism">Free Trade: The Price-Specie adjustment mechanism<a class="headerlink" href="#free-trade-the-price-specie-adjustment-mechanism" title="Permanent link">&para;</a></h3>
+<h3 id="free-trade-the-price-specie-adjustment-mechanism">Free Trade: The Price-Specie adjustment mechanism</h3>
 <p>The Price-Specie Flow Mechanism, a self-correcting process for trade imbalances, is one of the most influential economic ideas put forward by the Scottish philosopher David Hume (1711-1776). This elegant theory, which demonstrated how market forces could automatically balance trade between nations without the need for government intervention, stood in stark contrast to the Mercantilist policies of the time. The Price-Specie Flow Mechanism's significance and lasting impact on economic thought make it worthy of special attention. To better understand its workings, we will explore a "modern" economic model of the mechanism, drawing on the exposition by renowned economist Paul Samuelson. Before delving into the model, let us first consider Hume's original description of the concept:</p>
 <blockquote>
 <p>IT is very usual, in nations ignorant of the nature of commerce, to prohibit the exportation of commodities, and to preserve among themselves whatever they think valuable and useful[...]It is well known to the teamed, that the ancient laws of  ATHENS rendered the exportation of figs criminal; that being supposed a species of fruit so excellent in ATTICA, that the ATHENIANS deemed it too delicious for the palate of any foreigner[...]  The same jealous fear, with regard to money, has also prevailed among several nations;   and it required both reason and experience to convince any people, that these prohibitions serve to no other purpose than to raise the exchange against them, and produce a still greater exportation.... But there still prevails, even in nations well acquainted with commerce, a strong jealousy with regard to the balance of trade, and a fear, that all their gold and silver may be leaving them...<strong>Suppose four-fifths of all the money in BRITAIN to be annihilated in one night</strong>, and the nation reduced to the same condition, with regard to specie, as in the reigns of the HARRYS and EDWARDS, what would be the consequence? <strong>Must not the price of all labour and commodities sink in proportion, and every thing be sold as cheap as they were in those ages?</strong> <strong>What nation could then dispute with us in any foreign market, or pretend to navigate or to sell manufactures at the same price, which to us would afford sufficient profit?</strong> In how little time, therefore, must this bring back the money which we had lost, and raise us to the level of all the neighbouring nations? Where, after we have arrived, we immediately lose the advantage of the cheapness of labour and commodities; and the farther flowing in of money is stopped by our fulness and repletion.</p>
@@ -311,7 +669,7 @@ $$</p>
 <p>Over time, these adjustments in competitiveness serve to rebalance trade between the two countries. The surplus country's exports decrease, and its imports increase, while the deficit country experiences a growth in exports and a reduction in imports. This automatic rebalancing process, driven by market forces, ultimately brings the trade relationship back into equilibrium.</p>
 <p>The implications of Hume's Price-Specie Flow Mechanism are significant, as they provide a strong argument for the benefits of free trade. By allowing market forces to operate without interference, countries can naturally correct trade imbalances and maintain a healthy, mutually beneficial exchange of goods and services. This stands in sharp contrast to the Mercantilist policies of the previous century, which advocated for government intervention, protectionism, and the hoarding of precious metals.</p>
 <p>To further clarify the workings of the Price-Specie Flow Mechanism, let us now turn to a simple mathematical exposition designed by Paul Samuelson. This modern economic model will help us better understand the dynamics at play and the key variables involved in the re-equilibrating process.</p>
-<h5 id="the-price-specie-model-statement">The  price-specie model statement<a class="headerlink" href="#the-price-specie-model-statement" title="Permanent link">&para;</a></h5>
+<h5 id="the-price-specie-model-statement">The  price-specie model statement</h5>
 <ul>
 <li>
 <p>Let <span class="arithmatex">\(P\)</span> stand for gold price(s) at home, <span class="arithmatex">\(P^{*}\)</span> for price(s) abroad</p>
@@ -348,17 +706,17 @@ represents the equilibrium in the total amount of Gold in the system (World).</p
 <p>So let us collect all the equations of our model:
 $$
 \begin{aligned}
-B &amp;=f\left(\frac{P}{P^{<em>}}\right) \
+B &amp;=f\left(\frac{P}{P^{<em>}}\right)\ \
 PQ &amp;=\gamma M \
-P<sup>{*}Q</sup>{</em>} &amp;=\gamma M^{<em>} \
-B &amp;=\dot{M}=-\dot{M}^{</em>} \
-M+M^{<em>} &amp;=\bar{M}\end{aligned}
+P^{</em>}Q^{<em>} &amp;=\gamma M^{</em>} \
+B &amp;=\dot{M}=-\dot{M}^{<em>} \
+M+M^{</em>} &amp;=\bar{M}\end{aligned}
 $$
 We have an aggregate equation per region that links prices, output, and money. An equation that represents the trade balance, an equation that relates the trade balance to payments (the current account) and the aggregate (two regions sum) supply of Money. The reasoning of Hume according to the system can be spelled out as follows: if <span class="arithmatex">\(M\)</span> decreases suddenly (he wants to describe the outflow of gold), then <span class="arithmatex">\(P\)</span> will fall, and if <span class="arithmatex">\(Q\)</span> is maintained,  <span class="arithmatex">\(B\)</span> will become positive as the relative price decrease makes the country more competitive reversing the initial outflow of money. So, let's solve the system and get an equation for the flow of money (in equilibrium):
 $$
-\dot{M}=f\left(\frac{MQ^{</em>}}{\left(\bar{M}-M\right)Q}\right)
+\dot{M}=f\left(\frac{MQ^{*}}{\left(\bar{M}-M\right)Q}\right)
 $$</p>
-<h5 id="the-price-specie-model-steady-state">The  price-specie model steady state<a class="headerlink" href="#the-price-specie-model-steady-state" title="Permanent link">&para;</a></h5>
+<h5 id="the-price-specie-model-steady-state">The  price-specie model steady state</h5>
 <p>In Stationary - Steady State (think of the Long Run when the adjustment is terminated):
 $$
 B=f(1)=0
@@ -368,14 +726,14 @@ f\left(\frac{MQ^{<em>}}{\left(\bar{M}-M\right)Q}\right)=0
 $$
 Therefore the solution for <span class="arithmatex">\(M\)</span> in the long-run is:
 $$
-M<sup>{LR}=\frac{Q}{Q</sup>{</em>}+Q}\bar{M},
+M^{LR}=\frac{Q}{Q^{</em>}+Q}\bar{M},
 $$
 which shows that in the Long Run, the quantity adjusts towards a constant proportion given by the production level (taken as given).  Consider now the dynamic adjustment assuming an initial condition <span class="arithmatex">\(M_0\)</span> different from the long run value. If <span class="arithmatex">\(M_0&lt;M^{LR}\)</span>, namely, the stock of gold is below the long-run value,  the relative price ratio is <span class="arithmatex">\(\frac{MQ^{*}}{\left(\bar{M}-M\right)Q}&lt;1\)</span> which favors exports and imply an external surplus with an accumulation of gold: <span class="arithmatex">\(\dot{M}&gt;0\)</span>. The shape of the adjustment depends on the properties of <span class="arithmatex">\(f\)</span> but it occurs until the relative price reaches unity.  If <span class="arithmatex">\(M_0&gt;M^{LR}\)</span>  the adjustment occurs through trade deficits. You can try to plot what just described using some specific functional form, for example:
 $$
-f(P/P^*) = (P/P<sup _alpha-1_="(\alpha-1)">*)</sup>- 1,
+f(P/P^<em>) = (P/P^</em>)^{(\alpha-1)}- 1,
 $$</p>
 <p>where <span class="arithmatex">\(\alpha&lt; 1\)</span>. Here is a simulation from two different starting points, one corresponding to a surplus and one to a deficit.</p>
-<p><img alt="hume" src="../assetsHT/Hume.svg" /></p>
+<p><img alt="hume" src="../assetsHT/Hume.svg"/></p>
 <p>We just described a long-run adjustment without friction, and the mathematical model gives a neat representation and permits an intellectual check of the reasoning. </p>
 <blockquote>
 <p>As Schumpeter used to put it, we can applaud Hume’s performance in specifying a self-correcting mechanism that impressed people for two hundred years."
@@ -388,7 +746,7 @@ P.A. Samuelson</p>
 </blockquote>
 <p>In the chapter on Money, Hume acknowledges a short-run effect on economic activity that he did not consider in the price-specie adjustment mechanism. Samuelson extends the model to incorporate this additional insight, but for the sake of brevity, we will not delve into the details here. Instead, let us pause for a moment to reflect on the process we just undertook. To be precise, it was Samuelson who mapped Hume's theory, originally expressed in words, into mathematical form. This exercise has taught us that we can indeed scrutinize the reasoning behind a theory, but doing so requires explicitly spelling out a set of assumptions.</p>
 <p>However, this is where a potential pitfall lies: if we fail to constantly keep in mind the limited scope of reality that our assumptions imply, we risk misusing the model. For instance, we might overlook the fact that the activity level can be influenced by current imbalances through channels other than competitiveness, or that the described adjustment process implies that prices differ across countries during the transition period. It is crucial to ask ourselves whether these implications are reasonable. If they are not, then we are left with a result that hinges on a flawed hypothesis.</p>
-<h3 id="the-economy-as-a-circular-system-inputoutput">The economy as a circular system - input/output<a class="headerlink" href="#the-economy-as-a-circular-system-inputoutput" title="Permanent link">&para;</a></h3>
+<h3 id="the-economy-as-a-circular-system-inputoutput">The economy as a circular system - input/output</h3>
 <p>The last pre-Classic movement we will mention, the Physiocratic school, might be the first "true" school, with <strong>Francois Quesnay</strong> (1694-1774) as the central figure. Quesnay and his disciples had very innovative ideas, for example, they introduced the notions of productive and unproductive labour, by means of which the real source of wealth was found in the net product obtained by applying labour to land. You can think of a production function where the special factor of production is land and a second factor of production, productive labour, complements the land and results in value-added, <em>produit net</em>.  Another type of labour, the one not applied to land would be unproductive in their view: sterile. Why would manufacturing and commerce be sterile sectors? Their arguments were grounded in metaphysics. They differentiated between the <em>ordre naturel</em> (natural order, or the social order dictated by nature's laws) and the <em>ordre positif</em> (positive order, or the social order dictated by human ideals). The idea of interdependence among the various productive sectors and the related idea of macroeconomic equilibrium was extremely innovative by representing the economic exchanges as a circular flow of money and goods among the various economic sectors. Also the displacement of scientific interest from the stock of wealth to the flow of net product is of great importance. Finally, they championed the idea of <em>laissez-faire</em>, namely minimizing the state intervention and the <em>impot unique</em>, one single tax to finance a minimal government. Their representation of the flows between sectors was rendered in the famous Tableau Economique , a primordial Input-Output System:
 <pre class="mermaid"><code>graph LR;
 
@@ -412,13 +770,13 @@ Here a small explanation of the Tableau:</p>
 <li>
 <p>The three <em>milliard</em> that the productive class has spent outside the agricultural sector will come back to it; so that the cycle can begin again.
   He viewed this system as a natural order and therefore laissez-faire would be best. A second implication was to simplify tax system and create a unique tax on the produit net.  And here a picture of the original one published in 1758:
-  <img alt="Tableau" src="../assetsHT/Quesnay.png" /></p>
+  <img alt="Tableau" src="../assetsHT/Quesnay.png"/></p>
 </li>
 </ul>
-<h2 id="political-economy">Political Economy<a class="headerlink" href="#political-economy" title="Permanent link">&para;</a></h2>
-<p>The industrial revolution that started in the United Kingdom in the second part of the 18<sup>th</sup> century strongly impacted economic thinking. In 1776, <strong>Adam Smith</strong> (1723-1790), a former professor of Moral Philosophy at the University of Glasgow, published the Wealth of Nations (WoN).  The WoN is usually identified as the first "textbook" in Political Economy, composed of 5 books on the workings of a Society of Perfect Liberty. It represents a synthesis that organized economic thought for the following 40 years. While it is usually identified with the "invisible hand," its contents are better described as an overarching effort to conceptualize the forces and the social organization that result in the phenomena of economic growth. Smith's treatise went against the British laws that restricted internal and external commerce, many of which had been introduced during the Mercantilist era, and proposed a new reformed system of 'natural liberty.' The latter required the careful exposition of the economic principles underlying the system.  </p>
-<h4 id="adam-smith">Adam Smith<a class="headerlink" href="#adam-smith" title="Permanent link">&para;</a></h4>
-<p>While "The Wealth of Nations" is sometimes criticized for being a messy and inconsistent book, I believe that this view is misguided. Although there are indeed some inconsistencies, such as in Smith's explanation of what determines prices, the overall logic of his overarching argument about how nations prosper is remarkably coherent and insightful<sup id="fnref:fnwon1"><a class="footnote-ref" href="#fn:fnwon1">2</a></sup>.</p>
+<h2 id="political-economy">Political Economy</h2>
+<p>The industrial revolution that started in the United Kingdom in the second part of the 18th century strongly impacted economic thinking. In 1776, <strong>Adam Smith</strong> (1723-1790), a former professor of Moral Philosophy at the University of Glasgow, published the Wealth of Nations (WoN).  The WoN is usually identified as the first "textbook" in Political Economy, composed of 5 books on the workings of a Society of Perfect Liberty. It represents a synthesis that organized economic thought for the following 40 years. While it is usually identified with the "invisible hand," its contents are better described as an overarching effort to conceptualize the forces and the social organization that result in the phenomena of economic growth. Smith's treatise went against the British laws that restricted internal and external commerce, many of which had been introduced during the Mercantilist era, and proposed a new reformed system of 'natural liberty.' The latter required the careful exposition of the economic principles underlying the system.  </p>
+<h4 id="adam-smith">Adam Smith</h4>
+<p>While "The Wealth of Nations" is sometimes criticized for being a messy and inconsistent book, I believe that this view is misguided. Although there are indeed some inconsistencies, such as in Smith's explanation of what determines prices, the overall logic of his overarching argument about how nations prosper is remarkably coherent and insightful[^fnwon1].</p>
 <p>At its core, Smith's theory posits that the division of labor and the consequent increase in productivity are the central factors driving the wealth of nations. By breaking down production processes into specialized tasks, workers can become more skilled and efficient, leading to higher output and economic growth. However, Smith recognizes that for this increased production to be sustainable, there must be a sufficiently large market to absorb the goods and services produced.</p>
 <p>This brings us to the importance of scale in Smith's analysis. The size of the market, which is influenced by factors such as geography and transportation, plays a crucial role in determining the extent to which the division of labor can be implemented. A larger market allows for greater specialization and economies of scale, leading to higher productivity and economic growth.</p>
 <p>In addition to market size, Smith identifies demography as another critical factor in the growth of living standards. A larger population provides a greater pool of labor, which can be employed in increasingly specialized roles. This, in turn, allows for a more extensive division of labor and the associated benefits of increased productivity.</p>
@@ -449,15 +807,15 @@ not only the whole work is a peculiar trade, but it is divided into a number of 
 <p>It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their <strong>own interest</strong>. We address ourselves, not to their humanity but to their self-love,  and never talk to them of our own necessities but of their advantages.</p>
 <p>Wealth of Nations - Of the Principle which gives occasion to the  Division of Labour - chapter II</p>
 </blockquote>
-<p>Finally for this process of specialization to happen you need a market of a certain scale<sup id="fnref:fnwon3"><a class="footnote-ref" href="#fn:fnwon3">3</a></sup>. </p>
-<p>Regarding the determination of prices, or the value of goods exchanged, I find little innovation in Smith's work compared to Cantillon's earlier contributions. Smith distinguishes between value in use, which is linked to what we would call the demand price, and value in exchange<sup id="fnref:fn3"><a class="footnote-ref" href="#fn:fn3">4</a></sup>. He presents four different theories of value: the labor-commanded<sup id="fnref:fn4"><a class="footnote-ref" href="#fn:fn4">5</a></sup> theory, the labor-embodied theory, the adding-up (cost of production <sup id="fnref:fn5"><a class="footnote-ref" href="#fn:fn5">6</a></sup>) theory, and a disutility of work theory. While this variety of theories might confuse the reader, Smith ultimately favours the cost of production theory and dedicates the remainder of Book I to providing theories for determining the components of natural price.</p>
-<p>However, if value represents the price of production inputs, the question arises: how are these inputs determined? Specifically, what determines the wage, the rate of profit, and the rent? What factors influence the natural price levels? Smith proposes the following mechanisms to determine the "natural" price of each of the three inputs. For wages, he observes that employers have greater bargaining power than workers and that unions are essentially prohibited. Furthermore, workers are paid weekly and, therefore, cannot resist living without wages for an extended period. Consequently, in the long run, wages tend towards the subsistence level, which allows for reproduction but not much more—a theory that Malthus will later refine. Smith concedes that economic progress can improve wages over time and acknowledges that labor is not homogeneous, implying that wages are not uniform across all occupations. Factors such as the difficulty of a job, the skills required by a profession, or even chance can lead to wage disparities. In modern terms, he nearly specifies a Mincerian equation. The other two natural prices—profit and rent—are not explained in great detail, although the profit rate is understood as a reward for risk, and rent is seen as a residual value after paying wages and interest. Finally, Smith argues that competition (the system of perfect liberty, which cannot be taken for granted, as he writes<sup id="fnref:fn6"><a class="footnote-ref" href="#fn:fn6">7</a></sup>) causes market prices to tend toward their natural level, although they can fluctuate below and above the natural level implied by the natural level of input prices. Smith's exposition will remain a central part of the classical theory of distribution until the marginalist revolution.</p>
+<p>Finally for this process of specialization to happen you need a market of a certain scale[^fnwon3]. </p>
+<p>Regarding the determination of prices, or the value of goods exchanged, I find little innovation in Smith's work compared to Cantillon's earlier contributions. Smith distinguishes between value in use, which is linked to what we would call the demand price, and value in exchange[^fn3]. He presents four different theories of value: the labor-commanded[^fn4] theory, the labor-embodied theory, the adding-up (cost of production [^fn5]) theory, and a disutility of work theory. While this variety of theories might confuse the reader, Smith ultimately favours the cost of production theory and dedicates the remainder of Book I to providing theories for determining the components of natural price.</p>
+<p>However, if value represents the price of production inputs, the question arises: how are these inputs determined? Specifically, what determines the wage, the rate of profit, and the rent? What factors influence the natural price levels? Smith proposes the following mechanisms to determine the "natural" price of each of the three inputs. For wages, he observes that employers have greater bargaining power than workers and that unions are essentially prohibited. Furthermore, workers are paid weekly and, therefore, cannot resist living without wages for an extended period. Consequently, in the long run, wages tend towards the subsistence level, which allows for reproduction but not much more—a theory that Malthus will later refine. Smith concedes that economic progress can improve wages over time and acknowledges that labor is not homogeneous, implying that wages are not uniform across all occupations. Factors such as the difficulty of a job, the skills required by a profession, or even chance can lead to wage disparities. In modern terms, he nearly specifies a Mincerian equation. The other two natural prices—profit and rent—are not explained in great detail, although the profit rate is understood as a reward for risk, and rent is seen as a residual value after paying wages and interest. Finally, Smith argues that competition (the system of perfect liberty, which cannot be taken for granted, as he writes[^fn6]) causes market prices to tend toward their natural level, although they can fluctuate below and above the natural level implied by the natural level of input prices. Smith's exposition will remain a central part of the classical theory of distribution until the marginalist revolution.</p>
 <blockquote>
 <p>There is in every society or neighbourhood an ordinary or average rate both of wages and profit in every different employment of labour and stock...There is likewise in every society or neighbourhood an ordinary or average rate of rent... <strong>These ordinary or average rates may be called the natural rates of wages, profit, and rent,</strong> at the time and place in which they commonly prevail. When the price of any commodity is neither more nor less than what is sufficient to pay the rent of the land, the wages of the labour, and the profits of the stock employed in raising, preparing, and bringing it to market,     according to their natural rates, the commodity is then sold for what may be called its <strong>natural price</strong>[...]. <strong>The actual price at which any commodity is commonly sold is called its market price</strong>. <strong>It may either be above, or below, or exactly the same with its natural price.</strong> The market price of every particular commodity is regulated by the proportion between the quantity which is actually brought to market, and the demand of those who are willing to pay the natural price of the commodity, or the whole value of the rent, labour, and profit, which must be paid in order to bring it thither. Such people may be called the effectual demanders, and their demand the <strong>effectual demand</strong>; since it may be sufficient to effectuate the bringing of the commodity to market. It is <strong>different from the absolute demand</strong>. A very poor man may be said in some sense to have a demand for a coach and six; he might like to have it; but his demand is not an effectual demand, as the commodity can never be brought to market in order to satisfy it.  </p>
 <p><strong>When the quantity of any commodity which is brought to market falls short of the effectual demand</strong>, all those who are willing to pay the whole value of the rent, wages, and profit, which must be paid in order to bring it thither, cannot be supplied with the quantity which they want. Rather than want it altogether, some of them will be willing to give more. <strong>A competition will immediately begin</strong> among them, <strong>and the market price will rise more or less above the natural price</strong>, according as either the greatness of the deficiency, or the wealth and wanton luxury of the competitors, happen to animate more or less the eagerness of the competition. [...]<strong>When the quantity brought to market exceeds the effectual demand</strong>, it cannot be all sold to those who are willing to pay the whole value of the rent, wages, and profit, which must be paid in order to bring it thither. <strong>Some part must be sold to those who are willing to pay less, and the low price which they give for it must reduce the price of the whole.</strong> <strong>The market price will sink more or less below the natural price</strong>, according as the greatness of the excess increases more or less the competition of the sellers, or according as it happens to be more or less important to them to get immediately rid of the commodity. [...]<strong>When the quantity brought to market is just sufficient to supply the effectual demand, and no more, the market price naturally comes to be either exactly, or as nearly as can be judged of, the same with the natural price</strong>.</p>
 <p><strong>All the different parts of its price will soon sink to their natural rate, and the whole price to its natural price. The natural price, therefore, is, as it were, the central price, to which the prices of all commodities are continually gravitating</strong>. Different accidents may sometimes keep them suspended a good deal above it, and sometimes force them down even somewhat below it. But whatever may be the <strong>obstacles</strong> which hinder them from settling in this centre of repose and continuance, they are constantly tending towards it...<strong>A monopoly</strong> granted either to an individual or to a trading company has the same effect as a secret in trade or manufactures. <strong>The monopolists, by keeping the market constantly understocked, by never fully supplying the effectual demand, sell their commodities much above the natural price, and raise their emoluments, whether they consist in wages or profit, greatly above their natural rate...</strong></p>
 </blockquote>
-<p>Smith also writes in Book II on capital accumulation, which goes hand in hand with the division of labor. In this part, he remarks that Money is not to be confounded with revenue or, in more modern terms, output, but he considers it as part of the capital stock. Most notably, he recognizes the important role of Banks in financing the economy, allowing production to increase and, therefore, the reason for banks to receive a "legal" interest rate<sup id="fnref:fn7"><a class="footnote-ref" href="#fn:fn7">8</a></sup>. Finally in Book IV, Smith presents the list of tasks that the sovereign should have: police, army, justice, and remarkably public work, where he seems to foresee the theory of public goods. </p>
+<p>Smith also writes in Book II on capital accumulation, which goes hand in hand with the division of labor. In this part, he remarks that Money is not to be confounded with revenue or, in more modern terms, output, but he considers it as part of the capital stock. Most notably, he recognizes the important role of Banks in financing the economy, allowing production to increase and, therefore, the reason for banks to receive a "legal" interest rate[^fn7]. Finally in Book IV, Smith presents the list of tasks that the sovereign should have: police, army, justice, and remarkably public work, where he seems to foresee the theory of public goods. </p>
 <blockquote>
 <p>...First, the duty of protecting the society from violence and invasion of other independent societies; secondly, the duty of protecting, as far as possible, every member of the society from the injustice or oppression of every other member of it, or the duty of establishing an exact administration of justice; and, thirdly, the duty of erecting and maintaining certain <strong>public works</strong> and certain public institutions which it can never be for the interest of any individual, or small number of individuals, to erect and maintain; because the profit could never repay the expense to any individual or small number of individuals,though it may frequently do much more than repay it to a great society.
 Wealth of Nations -  Book 4 - Chapter IX</p>
@@ -468,11 +826,11 @@ Wealth of Nations -  Book 4 - Chapter IX</p>
 <p>Wealth of Nations - Of Restraints upon the Importation from Foreign Countries of such Goods as can be produced at Home Book IV - Chapter II</p>
 </blockquote>
 <p>The popular interpretation is that what is best for the individual is also best for society. In modern rendering the connection between competition and social efficiency. An important aspect is that this quote comes from the Book where Smith attacks the Mercantilist system and encourages free trade.</p>
-<h4 id="thomas-malthus">Thomas Malthus<a class="headerlink" href="#thomas-malthus" title="Permanent link">&para;</a></h4>
+<h4 id="thomas-malthus">Thomas Malthus</h4>
 <p>Thomas Malthus (1766-1834), the author of the influential "Essay on the Principle of Population" (1798), made two significant contributions to economic thought that deserve brief mention. First, Malthus developed a theory of population growth that would later become the central hypothesis for the "iron law of wages," refining Smith's concept of the natural wage rate determination. According to Malthus, the natural (unchecked) rate of population growth invariably exceeds the growth of means of subsistence. This disparity implies that actual (checked) population growth is kept in line with food supply growth through two mechanisms: "positive checks," such as starvation and disease, which elevate the death rate; and "preventive checks," like the postponement of marriage, which keep the birth rate down.</p>
-<p>Malthus's hypothesis suggests that the actual population always tends to push above the available food supply. As a result, any efforts to improve the conditions of the lower classes by increasing their incomes or enhancing agricultural productivity would ultimately prove futile, as the induced population growth would completely absorb the additional means of subsistence. Malthus argued that as long as this tendency persists, society's improvement and "perfectibility" will remain out of reach. He pessimistically concluded that the future of mankind would always be marred by "misery and vice" due to this fundamental imbalance between population growth and the means of subsistence<sup id="fnref:fn8"><a class="footnote-ref" href="#fn:fn8">9</a></sup>" </p>
-<h4 id="david-ricardo">David Ricardo<a class="headerlink" href="#david-ricardo" title="Permanent link">&para;</a></h4>
-<p>David Ricardo (1772-1823) and his "Principles of Political Economy and Taxation" (1817) deserves a more in-depth examination due to the highly articulated and rigorous nature of his formulation of classical theories. Although Ricardo does not employ algebra, his exposition achieves a level of analytical clarity that brings his book closer to a modern textbook. The stated objective of Ricardo's work is to determine the law of distribution between different classes: workers, who spend their wage income on necessities; capitalists, who save most of their profit income and reinvest it; and rentiers<sup id="fnref:fn11"><a class="footnote-ref" href="#fn:fn11">10</a></sup>, who spend their rental income on luxuries.</p>
+<p>Malthus's hypothesis suggests that the actual population always tends to push above the available food supply. As a result, any efforts to improve the conditions of the lower classes by increasing their incomes or enhancing agricultural productivity would ultimately prove futile, as the induced population growth would completely absorb the additional means of subsistence. Malthus argued that as long as this tendency persists, society's improvement and "perfectibility" will remain out of reach. He pessimistically concluded that the future of mankind would always be marred by "misery and vice" due to this fundamental imbalance between population growth and the means of subsistence[^fn8]" </p>
+<h4 id="david-ricardo">David Ricardo</h4>
+<p>David Ricardo (1772-1823) and his "Principles of Political Economy and Taxation" (1817) deserves a more in-depth examination due to the highly articulated and rigorous nature of his formulation of classical theories. Although Ricardo does not employ algebra, his exposition achieves a level of analytical clarity that brings his book closer to a modern textbook. The stated objective of Ricardo's work is to determine the law of distribution between different classes: workers, who spend their wage income on necessities; capitalists, who save most of their profit income and reinvest it; and rentiers[^fn11], who spend their rental income on luxuries.</p>
 <p>To achieve this goal, Ricardo needed a precise theory of prices (value), as opposed to the three or four theories presented by Smith. For Ricardo, the most appropriate theory was the "labor-embodied" theory of value, which argues that the relative "natural" prices of commodities are determined by the relative hours of labor expended in their production. However, Ricardo recognized a problem that arose when considering capital: as different industries apply varying amounts of capital per laborer, the rate of profit would also differ across industries. If Ricardo then assumed that the rates of profit across different industries were equalized (as free competition would imply), the relative prices would vary with wages.</p>
 <p>Principles of Political Economy and Taxation - On Value - Chapter I</p>
 <blockquote>
@@ -481,14 +839,14 @@ Wealth of Nations -  Book 4 - Chapter IX</p>
 <p>The principle that the quantity of labour bestowed on the production of commodities regulates their relative value considerably modified by the employment of machinery and other fixed and durable capital.</p>
 </blockquote>
 <p>Ricardo understood that the labor theory of value would only work if the degree of capital intensity were the same across all sectors. He proposed two ways to address this dilemma. First, he made the empirical argument that firms apply capital roughly proportional to the amount of labor invested. In this case, when profits are equalized, the resulting prices would not differ significantly from the values implied by the labor embodied. Using numerical examples, Ricardo demonstrated that the deviation of relative prices from the value of labor content due to capital was small, on the order of 6%-7%, and thus concluded that using the simple form of the labor value theory was an acceptable approximation. This approach is what Stigler (1958) has called Ricardo's "93% labor theory of value."</p>
-<p>The second solution was to find a commodity that has the <em>average</em> capital per worker, so that its price would reflect the labor-embodied value and not vary with changes in distribution. Ricardo called this the "invariable standard of value" but acknowledged that it was impossible to find one<sup id="fnref:fn12"><a class="footnote-ref" href="#fn:fn12">11</a></sup>. As a result, he settled on gold as the closest approximation. The logical construction of Ricardo's arguments is noteworthy: he delves into as many logical details as possible and makes simplifying hypotheses to reach precise conclusions. For example, he assumes that capital's contribution to value can be measured in labor units and approximated to 6%-7%, and that gold can measure absolute value as its labor content is taken to be invariable.</p>
+<p>The second solution was to find a commodity that has the <em>average</em> capital per worker, so that its price would reflect the labor-embodied value and not vary with changes in distribution. Ricardo called this the "invariable standard of value" but acknowledged that it was impossible to find one[^fn12]. As a result, he settled on gold as the closest approximation. The logical construction of Ricardo's arguments is noteworthy: he delves into as many logical details as possible and makes simplifying hypotheses to reach precise conclusions. For example, he assumes that capital's contribution to value can be measured in labor units and approximated to 6%-7%, and that gold can measure absolute value as its labor content is taken to be invariable.</p>
 <p>Although not entirely robust, Ricardo uses his price theory to determine class distribution, making one of his most important contributions in the process: the theory of rents, which introduces the concept of decreasing returns to land cultivation. Ricardo defines rent as the difference in productive power between the best land and the marginal land in use (an extensive margin), and emphasizes that rent should not be confused with the amount paid to the landlord, which might contain remuneration for capital improvements (an intensive margin).</p>
 <p>Principles of Political Economy and Taxation - On Rent - Chapter II</p>
 <blockquote>
 <p>Rent is that portion of the produce of the earth, which is paid to the landlord for the use of the original and indestructible powers of the soil. It is often, however, confounded with the interest and profit of capital, and, in popular language, the term is applied to whatever is annually paid by a farmer to his landlord. If, of two adjoining farms of the same extent, and of the same natural fertility, one had all the conveniences of farming buildings, and, besides, were properly drained and manured, and advantageously divided by hedges, fences and walls, while the other had none of these advantages, more remuneration would naturally be paid for the use of one, than for the use of the other; yet in both cases this remuneration would be called rent. But it is evident, that a portion only of the money annually to be paid for the improved farm, would be given for the original and indestructible powers of the soil; the other portion would be paid for the use of the <strong>capital which had been employed in ameliorating the quality of the land</strong>, and in erecting such buildings as were necessary to secure and preserve the produce.[...] <strong>It is only, then, because land is not unlimited in quantity and uniform in quality, and because in the progress of population, land of an inferior quality, or less advantageously situated, is called into cultivation, that rent is ever paid for the use of it.</strong> When in the progress of society, land of the second degree of fertility is taken into cultivation, rent immediately commences on that of the first quality, and the amount of that rent will depend on the difference in the quality of these two portions of land. When land of the third quality is taken into cultivation, rent immediately commences on the second, and it is regulated as before, by the <strong>difference in their productive powers</strong>. At the same time, the rent of the first quality will rise, for that must always be above the rent of the second, by the difference between the produce which they yield with a given quantity of capital and labour....</p>
 </blockquote>
-<p>The following figure, which we will also use in the model at the end of this section on the Classics, shows how to determine the rent according to Ricardo.  The horizontal axis shows the extensive usage of land <em>T</em>, with decreasing productivity going East, and the vertical axis shows the amount of grain <em>G</em>  (net of seeds) produced. We divide the cultivated land into five types: A, B, C, D, and E, scaled in decreasing order of fertility.  <em><span class="arithmatex">\(w_r\)</span></em> is the long-run wage rate determined by the iron law<sup id="fnref:fnric1"><a class="footnote-ref" href="#fn:fnric1">12</a></sup>. Ricardo's assumption is that on the last piece of cultivated land, there is no rent. So land E produces a value of <span class="arithmatex">\(G_e\)</span> and therefore, the profits are <span class="arithmatex">\(\pi = G_e -w_r\)</span>.  Now, the second best land produces <span class="arithmatex">\(G_d&gt;G_e\)</span>  and the difference between the value of these two productions is the rent paid to D.  Because of competition, all the capitalists will earn the same profit rate since the product that can be obtained from intramarginal lands over and above that of the marginal land will be entirely paid up in rent.
-<img alt="Ricardo" src="../assetsHT/Ricardo.png" />
+<p>The following figure, which we will also use in the model at the end of this section on the Classics, shows how to determine the rent according to Ricardo.  The horizontal axis shows the extensive usage of land <em>T</em>, with decreasing productivity going East, and the vertical axis shows the amount of grain <em>G</em>  (net of seeds) produced. We divide the cultivated land into five types: A, B, C, D, and E, scaled in decreasing order of fertility.  <em><span class="arithmatex">\(w_r\)</span></em> is the long-run wage rate determined by the iron law[^fnric1]. Ricardo's assumption is that on the last piece of cultivated land, there is no rent. So land E produces a value of <span class="arithmatex">\(G_e\)</span> and therefore, the profits are <span class="arithmatex">\(\pi = G_e -w_r\)</span>.  Now, the second best land produces <span class="arithmatex">\(G_d&gt;G_e\)</span>  and the difference between the value of these two productions is the rent paid to D.  Because of competition, all the capitalists will earn the same profit rate since the product that can be obtained from intramarginal lands over and above that of the marginal land will be entirely paid up in rent.
+<img alt="Ricardo" src="../assetsHT/Ricardo.png"/>
 Ricardo then adds a theory of growth: population increases, more land is cultivated which leads to a decrease in the profit rate and an increase in the rent.  In the limit, Ricardo argued, a "stationary state" would be reached where capitalists will be making near-zero profits and no further accumulation would occur, but he saw this stationary state as far away in the future.</p>
 <p>Principles of Political Economy and Taxation - On Rent - Chapter II</p>
 <blockquote>
@@ -502,7 +860,7 @@ Ricardo then adds a theory of growth: population increases, more land is cultiva
 <blockquote>
 <p>The natural <strong>tendency of profits then is to fall</strong>; for, in the progress of society and wealth, the additional quantity of food required is obtained by the sacrifice of more and more labour.</p>
 </blockquote>
-<p>Ricardo suggested two things that might hold this law of diminishing returns at bay and keep accumulation going, at least for a while: technical progress and foreign trade. On foreign trade, Ricardo set forth his famous theory of <em>comparative advantage</em>.  Using his famous example of two nations (Portugal and England) and two commodities (wine and cloth), Ricardo argued that trade would be beneficial even if Portugal held an absolute cost advantage over England in both commodities. Ricardo's argument was that there are gains from trade if each nation specializes completely in the production of the good in which it has a "comparative" cost advantage in producing and then trades with the other nation for the other good. Notice that the differences in initial position mean that the labor theory of value is not assumed to hold across countries -- as it should be, Ricardo argued, because factors, particularly labor, are not generally mobile across borders<sup id="fnref:fn13"><a class="footnote-ref" href="#fn:fn13">13</a></sup>. As far as growth is concerned, foreign trade may promote further accumulation and growth if wage goods (not luxuries) are imported at a lower price than they cost domestically -- thereby leading to a lowering of the real wage and a rise in profits.</p>
+<p>Ricardo suggested two things that might hold this law of diminishing returns at bay and keep accumulation going, at least for a while: technical progress and foreign trade. On foreign trade, Ricardo set forth his famous theory of <em>comparative advantage</em>.  Using his famous example of two nations (Portugal and England) and two commodities (wine and cloth), Ricardo argued that trade would be beneficial even if Portugal held an absolute cost advantage over England in both commodities. Ricardo's argument was that there are gains from trade if each nation specializes completely in the production of the good in which it has a "comparative" cost advantage in producing and then trades with the other nation for the other good. Notice that the differences in initial position mean that the labor theory of value is not assumed to hold across countries -- as it should be, Ricardo argued, because factors, particularly labor, are not generally mobile across borders[^fn13]. As far as growth is concerned, foreign trade may promote further accumulation and growth if wage goods (not luxuries) are imported at a lower price than they cost domestically -- thereby leading to a lowering of the real wage and a rise in profits.</p>
 <p>Principles of Political Economy and Taxation - On Foreign Trade - Chapter VII</p>
 <blockquote>
 <p><strong>Under a system of perfectly free commerce, each country naturally devotes its capital and labour to such employments as are most beneficial to each</strong>. This pursuit of individual advantage is admirably connected with the universal good of the whole. By stimulating industry, by rewarding ingenuity, and by using most efficaciously the peculiar powers bestowed by nature, it distributes labour most effectively and most economically: while, by increasing the general mass of productions, it diffuses general benefit, and binds together by one common tie of interest and intercourse, the universal society of 157 nations throughout the civilized world. <strong>It is this principle which determines that wine shall be made in France and Portugal, that corn shall be grown in America and Poland, and that hardware and other goods shall be manufactured in England.</strong></p>
@@ -558,8 +916,8 @@ Ricardo then adds a theory of growth: population increases, more land is cultiva
 <div class="arithmatex">\[B_{2}=\frac{T_{2}}{(1+i)}+\frac{T_{3}}{(1+i)(1+i)}\]</div>
 <p>so the 20 will be repaid increasing taxes in period 2 and period 3. A person that fully anticipates this will behave accordingly.
  #### John Stuart Mill
-The last Classical economist we will briefly cover is <strong>John Stuart Mill</strong> (1806-1873). J.S. Mill was more a philosopher than an economist, but he must be mentioned for he published Principles of Political Economy (1848), which became the most important textbook in economics for at least 30 years. Mill's book can be seen as the final revision of Smith's classical ideas, especially Ricardo's. His main focus is distribution as he believed that production was mostly a technical, almost engineering science. Distribution, on the other hand, depended on human choices<sup id="fnref:fn14"><a class="footnote-ref" href="#fn:fn14">14</a></sup>. </p>
-<p>Mill improved on the notion of price determination, introducing the idea of an equation<sup id="fnref:fn15"><a class="footnote-ref" href="#fn:fn15">15</a></sup> and refined Ricardo's international trade theory. Ricardo had left the relative price under trade undetermined and assumed that the price would settle between the two countries' cost of production price.  Mill refers to the equality of demand and supply in the two countries (reciprocal demand as supply), anticipating a general equilibrium theory.       </p>
+The last Classical economist we will briefly cover is <strong>John Stuart Mill</strong> (1806-1873). J.S. Mill was more a philosopher than an economist, but he must be mentioned for he published Principles of Political Economy (1848), which became the most important textbook in economics for at least 30 years. Mill's book can be seen as the final revision of Smith's classical ideas, especially Ricardo's. His main focus is distribution as he believed that production was mostly a technical, almost engineering science. Distribution, on the other hand, depended on human choices[^fn14]. </p>
+<p>Mill improved on the notion of price determination, introducing the idea of an equation[^fn15] and refined Ricardo's international trade theory. Ricardo had left the relative price under trade undetermined and assumed that the price would settle between the two countries' cost of production price.  Mill refers to the equality of demand and supply in the two countries (reciprocal demand as supply), anticipating a general equilibrium theory.       </p>
 <p>On the long run Mill is very much Ricardian, with the only difference that he saw the stationary state closer although postponed by technological improvement. He also, very philosophically, believed that once the stationary state would be reached, men could finally focus on interesting aspects of life and not on economical ones. </p>
 <p>Principles of Political Economy, Book IV, Chapter VI</p>
 <blockquote>
@@ -570,9 +928,9 @@ with the unaffected aversion so generally manifested towards it by political eco
 can the conquests made from the powers of nature by the intellect and energy of scientific discoverers, become the common property of the species, and the means of improving and elevating the universal lot. </p>
 </blockquote>
 <p>Here the philospher speaks :-) .  </p>
-<p>Finally, on taxation Mill is famously in favour of a proportional tax rate that becomes progressive because of an exemption at the bottom of the income distribution<sup id="fnref:fn16"><a class="footnote-ref" href="#fn:fn16">16</a></sup> and suggests inheritance taxes<sup id="fnref:fnm1"><a class="footnote-ref" href="#fn:fnm1">17</a></sup>.</p>
+<p>Finally, on taxation Mill is famously in favour of a proportional tax rate that becomes progressive because of an exemption at the bottom of the income distribution[^fn16] and suggests inheritance taxes[^fnm1].</p>
 <p>We now present the distributional and growth model that synthetize the thoughts of the Classics in the famous Samuelson's formulation</p>
-<h4 id="canonical-model-of-classical-growth-and-redistribution-samuelson">Canonical Model of Classical Growth and Redistribution (Samuelson)<a class="headerlink" href="#canonical-model-of-classical-growth-and-redistribution-samuelson" title="Permanent link">&para;</a></h4>
+<h4 id="canonical-model-of-classical-growth-and-redistribution-samuelson">Canonical Model of Classical Growth and Redistribution (Samuelson)</h4>
 <p>We have reported through the above quotes that Adam Smith, David Ricardo, Thomas Robert Malthus, and John Stuart Mill shared a common dynamic model of growth and distribution. Samuelson presents us with a model "stripped down to its minimal essentials" to characterize in mathematical terms the ideas that were common to the Classical economists. Of course, any simple codification of the classical economists' discursive writings is an oversimplification. Still, as mentioned in the introduction, it can be useful to identify the main mechanisms and logical coherence. Let us list the model ingredients that map to the Classical economist's writings:
 1. Real output <span class="arithmatex">\(Q_t\)</span> is divided interchangeably between consumption <span class="arithmatex">\(C_t\)</span> and capital formation <span class="arithmatex">\(\dot{K}_{t}\)</span> implying <span class="arithmatex">\(<span class="arithmatex">\(Q_{t}=C_{t}+\dot{K}_{t}\)</span>\)</span>.</p>
 <ol>
@@ -618,7 +976,7 @@ can the conquests made from the powers of nature by the intellect and energy of 
 </li>
 </ol>
 <p>Let us start with a Figure and a verbal description of the model similar to our presentation of Ricardos' rent theory determination above.
-<img alt="classics1" src="../assetsHT/Fig_Classics_1.png" />
+<img alt="classics1" src="../assetsHT/Fig_Classics_1.png"/>
 On the horizontal axis, you now have as before implicitly Land.  However what is shown is the amount of capital and labor (the dose) applied in the same relative labor-capital proportions to each piece of land. Further, instead of having discrete lots of land here, we have a continuous amount of land (that is a very post-Classical feature) that declines continuously "eastward" in "fertility." The result is that fixed proportions of dose to land prevail at each grade's longitude, with the return of product per dose applied declining continuously as we move eastward. Then, when labor and capital are finished, all land to the east is not worth cultivating, but as labor and capital increase in availability, they are applied further eastward. For each total of doses available (Labor and Capital), there is an external frontier of zero-rent land. In the following graph the height of <span class="arithmatex">\(DD'\)</span> at any given dose is the average product of output per unit of dose. The horizontal line <span class="arithmatex">\(WW'\)</span> is the long run supply of labor. It represents the subsistence cost of the reproduction of labor in a steady state. By choosing the right units, the height of <span class="arithmatex">\(WW\)</span> represents the real wage rate per unit of labor, <span class="arithmatex">\(\bar{w}^{*}\)</span>, the labor power's cost of reproduction in stationary equilibrium. The line <span class="arithmatex">\(SS'\)</span> is the long-run supply of the composite dose. <span class="arithmatex">\(SS'-WW'\)</span> is the long run profit long-run profit rate <span class="arithmatex">\(\bar{r}^{*}\)</span>. It is such that net saving are zero but allow replacement of the depreciated capital and can include risk premia and cost of capital management. The residual of land rent is measured on the diagram by the area <span class="arithmatex">\(SED\)</span>. It is the residual of what is left of total product <span class="arithmatex">\(OK^*ED\)</span> after paying capital and labor <span class="arithmatex">\(OK^*ES\)</span>.</p>
 <p>Let us look a the mathematical formulation of the model. Assume a single sector of production and fixed proportions between labor and capital. Implicitly, there is a production function where the output <span class="arithmatex">\(Q\)</span> is produced with land fixed <span class="arithmatex">\(T\)</span> of various grades: </p>
 <p><span class="arithmatex">\(<span class="arithmatex">\(Q_{t}=F\left(L_{t},K_{t};T\right)\)</span>\)</span>,</p>
@@ -644,7 +1002,7 @@ On the horizontal axis, you now have as before implicitly Land.  However what is
 <p>where <span class="arithmatex">\(\epsilon\)</span> is the slowness of the growth response of labor supply. Similarly when <span class="arithmatex">\(r\)</span> exceeds <span class="arithmatex">\(\bar{r}^{*}\)</span> the rate of saving-investment is positive as capitalists want to invest:</p>
 <p><span class="arithmatex">\(<span class="arithmatex">\(\frac{\dot{K}_{t}}{K_{t}}=\sigma\left(r_{t}-\bar{r}^{*}\right)\)</span>\)</span>,</p>
 <p>with <span class="arithmatex">\(<span class="arithmatex">\(\sigma\left(0\right)=0,\sigma'&gt;0\)</span>\)</span>.</p>
-<p>This model is now a complete system of equations, or almost complete <sup id="fnref:fn17"><a class="footnote-ref" href="#fn:fn17">18</a></sup>. If the economy started with the initial <span class="arithmatex">\(L_0/K_0=1\)</span> and always remained in this balanced configuration, the model determines the endogenous variables: <span class="arithmatex">\(L_{t},K_{t},V_{t},w_{t},r_{t},p_{Vt},C_{t},Q_{t},R_{t}\)</span>. </p>
+<p>This model is now a complete system of equations, or almost complete [^fn17]. If the economy started with the initial <span class="arithmatex">\(L_0/K_0=1\)</span> and always remained in this balanced configuration, the model determines the endogenous variables: <span class="arithmatex">\(L_{t},K_{t},V_{t},w_{t},r_{t},p_{Vt},C_{t},Q_{t},R_{t}\)</span>. </p>
 <p>First consider Ricardo case ("short-circuited case") where population adjusts istantly so that <span class="arithmatex">\(<span class="arithmatex">\(w_{t}=\bar{w}^{*}\)</span>\)</span> and <span class="arithmatex">\(L_{t}\)</span> always adjusts to <span class="arithmatex">\(K_{t}\)</span>, therefore we have correct proportion of inputs:</p>
 <p><span class="arithmatex">\(<span class="arithmatex">\(L_{t}=K_{t}=V_{t}\)</span>\)</span>,</p>
 <p>and a price of a dose given by:</p>
@@ -662,7 +1020,7 @@ On the horizontal axis, you now have as before implicitly Land.  However what is
 <div class="arithmatex">\[C_{t}=f\left(K_{t}\right)-\dot{K}_{t}\]</div>
 <div class="arithmatex">\[R_{t}=f\left(K_{t}\right)-K_{t}f'\left(K_{t}\right)\]</div>
 <p>Graphically it means that the adjustment to the stationary state occurs along the DD'.
-<img alt="classics2" src="../assetsHT/Fig_Classics_2.png" />
+<img alt="classics2" src="../assetsHT/Fig_Classics_2.png"/>
 We can go even further and assume a more realistic model where labor and capital share the transient surplus of the dose's return. Assume the system starts at <span class="arithmatex">\(L_{0},K_{0}\)</span> sufficiently close to <span class="arithmatex">\(L^{*}\)</span> and <span class="arithmatex">\(K^{*}\)</span>. In this case, it will forever  grow with <span class="arithmatex">\(K/L\)</span> in the needed balance and with neither factor redundantly free </p>
 <div class="arithmatex">\[L_{0}=K_{0}=V_{0},\]</div>
 <div class="arithmatex">\[r_{t}=f'\left(K_{t}\right)-w_{t},\]</div>
@@ -676,29 +1034,29 @@ We can go even further and assume a more realistic model where labor and capital
 <p>you have</p>
 <p><span class="arithmatex">\(<span class="arithmatex">\(w_{t}=\frac{\bar{w}^{*}+\left(f'\left(K_{t}\right)-\bar{r}^{*}\right)\epsilon^{\frac{1}{1+\beta}}}{\left(1+\epsilon^{\frac{1}{1+\beta}}\right)}\)</span>\)</span>.
 and now the adjustment towards the stationary state also regards the workers.
-<img alt="classics3" src="../assetsHT/Fig_Classics_3.png" />
+<img alt="classics3" src="../assetsHT/Fig_Classics_3.png"/>
 Even in this more realistic version where workers and capitalists share part of the extra return of the dose, the lon run implications are gloomy. Wages  decline towards the subsistance level, profits rate also decline towards their natural level that can be zero after allowing for depreciation and various premia, while the rent is maximized. As I mentioned above technical progress can delay the inevitable but the Classics never thougth that it could delay it forever. This conclusion is what earned Political Economy Carlyle's title of the dismal science.</p>
-<h4 id="karl-marx">Karl Marx<a class="headerlink" href="#karl-marx" title="Permanent link">&para;</a></h4>
+<h4 id="karl-marx">Karl Marx</h4>
 <p>Karl Marx (1818-1883), known as one of the founding fathers of communism, is often debated as to whether he belongs in a course on the history of economic analysis. On one hand, Marx was more of a philosopher than an economist, which would suggest his exclusion. On the other hand, his analysis of the capitalist system, a term he coined to describe the market economy, had long-lasting consequences, making a strong case for his inclusion. What sets Marx apart from the previous Classical economists is his departure from the scientific revolution's approach of analyzing Political Economy through rational thinking and empirical observation. Instead, Marx adopts a Hegelian method in which the dynamic historical context plays a central role.</p>
 <p>According to Marx's perspective, the dialectics of history demonstrated how the bourgeoisie (capitalists) had replaced the previous feudal productive system (landlords) and how the proletariat (workers) would, in turn, replace the capitalist system with a communist society. In his analysis, the dynamics of productive forces (i.e., technology) are crucial in driving these changes. Marx believed that this historical process would culminate in the proletariat achieving predominance, ushering in an age of harmony. However, he does not provide a detailed description of this harmonious state, focusing instead on his analysis of what he perceives as the functioning of capitalist society.</p>
 <p>For the purposes of this discussion, we will concentrate on Marx's main "economic" contribution, "Das Kapital" (The Capital). The first volume was published in 1867, while volumes two and three were published posthumously by his friend Friedrich Engels. Marx's writings are often lengthy, intricate, and challenging to understand. To avoid subjective judgments, it is worth reproducing some parts in their entirety, allowing readers to form their own opinions. Here is the initial part of the first volume:</p>
 <p>Capital, Volume 1 - Part I - chapter 1</p>
 <blockquote>
-<p><em>The wealth of those societies in which the capitalist mode of production prevails, presents itself as "an immense accumulation of commodities," its unit being a single commodity. Our investigation must therefore begin with the analysis of a commodity.</em> <strong>A commodity is, in the first place, an object outside us</strong>, a thing that by its properties satisfies human wants of some sort or another. The nature of such wants, whether, for instance, they spring from the stomach or from fancy, makes no difference. Neither are we here concerned to know how the object satisfies these wants, whether directly as means of subsistence, or indirectly as means of production. Every useful thing, as iron, paper, &amp;.c, may be looked at from the two points of view of quality and quantity. It is an assemblage of many properties, and may therefore be of use in various ways. To discover the various uses of things is the work of history. So also is the establishment of socially recognised standards of measure for the quantities of these useful objects. The diversity of these measures has its origin partly in the diverse nature of the objects to be measured, partly in convention. The utility of a thing makes it a use-value. But this utility is not a thing of air. Being limited by the physical properties of the commodity, it has no existence apart from that commodity. A commodity, such as iron, corn, or a diamond, is therefore, so far as it is a material thing, a use-value, something useful. This property of a commodity is independent of the amount of labour required to appropriate its useful qualities. Exchange-value, at first sight, presents itself as a quantitative relation, as the proportion in which values in use of one sort are exchanged for those of another sort, a relation constantly changing with time and place. Hence exchange-value appears to be something accidental and purely relative, and consequently an intrinsic value, i.e., an exchange-value that is inseparably connected with, inherent in commodities, seems a contradiction in terms. Let us consider the matter a little more closely.[...]* <strong>Let us take two commodities, e.g., corn and iron. The proportions in which they are exchangeable, whatever those proportions may be, can always be represented by an equation in which a given quantity of corn is equated to some quantity of iron: e.g., 1 quarter corn = x ton iron. What does this equation tell us? It tells us that in two different things—in 1 quarter of corn and x ton of iron, there exists in equal quantities something common to both. The two things must therefore be equal to a third, which in itself is neither the one nor the other. Each of them, so far as it is exchange-value, must therefore be reducible to this third.</strong></p>
+<p><em>The wealth of those societies in which the capitalist mode of production prevails, presents itself as "an immense accumulation of commodities," its unit being a single commodity. Our investigation must therefore begin with the analysis of a commodity.</em> <strong>A commodity is, in the first place, an object outside us</strong>, a thing that by its properties satisfies human wants of some sort or another. The nature of such wants, whether, for instance, they spring from the stomach or from fancy, makes no difference. Neither are we here concerned to know how the object satisfies these wants, whether directly as means of subsistence, or indirectly as means of production. Every useful thing, as iron, paper, &amp;.c, may be looked at from the two points of view of quality and quantity. It is an assemblage of many properties, and may therefore be of use in various ways. To discover the various uses of things is the work of history. So also is the establishment of socially recognised standards of measure for the quantities of these useful objects. The diversity of these measures has its origin partly in the diverse nature of the objects to be measured, partly in convention. The utility of a thing makes it a use-value. But this utility is not a thing of air. Being limited by the physical properties of the commodity, it has no existence apart from that commodity. A commodity, such as iron, corn, or a diamond, is therefore, so far as it is a material thing, a use-value, something useful. This property of a commodity is independent of the amount of labour required to appropriate its useful qualities. Exchange-value, at first sight, presents itself as a quantitative relation, as the proportion in which values in use of one sort are exchanged for those of another sort, a relation constantly changing with time and place. Hence exchange-value appears to be something accidental and purely relative, and consequently an intrinsic value, i.e., an exchange-value that is inseparably connected with, inherent in commodities, seems a contradiction in terms. Let us consider the matter a little more closely.[...]<em> </em><em>Let us take two commodities, e.g., corn and iron. The proportions in which they are exchangeable, whatever those proportions may be, can always be represented by an equation in which a given quantity of corn is equated to some quantity of iron: e.g., 1 quarter corn = x ton iron. What does this equation tell us? It tells us that in two different things—in 1 quarter of corn and x ton of iron, there exists in equal quantities something common to both. The two things must therefore be equal to a third, which in itself is neither the one nor the other. Each of them, so far as it is exchange-value, must therefore be reducible to this third.</em>*</p>
 <p><em>This common “something” cannot be a geometrical, physical, chemical or other natural property of commodities. Such properties come into consideration only to the extent that they make the commodities useful, i.e. turn them into use-values. But clearly, the exchange relation of commodities is characterized precisely by its abstraction from their use-values... If then we leave out of consideration the use-value of commodities,</em> <strong>they have only one common property left, that of being products of labour</strong>. But even the product of labour itself has undergone a change in our hands. If we make abstraction from its use-value, we make abstraction at the same time from the material elements and shapes that make the product a use-value; we see in it no longer a table, a house, yarn, or any other useful thing. Its existence as a material thing is put out of sight. Neither can it any longer be regarded as the product of the labour of the joiner, the mason, the spinner, or of any other definite kind of productive labour. Along with the useful qualities of the products themselves, we put out of sight both the useful character of the various kinds of labour embodied in them, and the concrete forms of that labour; there is nothing left but what is common to them all; all are reduced to one and the same sort of labour, human labour in the abstract.</p>
 </blockquote>
-<p>Marx's theory of prices, or more precisely, his theory of value, is a labor-embodied theory that closely follows Ricardo's approach. After presenting his theory of value, Marx proceeds to develop his theory of surplus value and labor exploitation. He defines capitalism as a system (or "mode of production") designed for capital accumulation rather than consumption. In more primitive systems, farmers and artisans produced commodities to exchange them for money, which they then used to buy other commodities that better suited their consumption needs (C-M-C)<sup id="fnref:fn18"><a class="footnote-ref" href="#fn:fn18">19</a></sup>.  In contrast, under capitalism, the production of commodities for exchange is merely an intermediary step in a process initiated by capitalists to make more money, which Marx calls the "circuit of capital" (M-C-M'). In this process, capitalists use money (M) to buy labor power and raw materials, which are then transformed through production into commodities (C) that are sold for a greater amount of money (M')<sup id="fnref:fn19"><a class="footnote-ref" href="#fn:fn19">20</a></sup>. The difference between M' and M, denoted as  <span class="arithmatex">\(\Delta M = M'-M\)</span> is the surplus value.</p>
+<p>Marx's theory of prices, or more precisely, his theory of value, is a labor-embodied theory that closely follows Ricardo's approach. After presenting his theory of value, Marx proceeds to develop his theory of surplus value and labor exploitation. He defines capitalism as a system (or "mode of production") designed for capital accumulation rather than consumption. In more primitive systems, farmers and artisans produced commodities to exchange them for money, which they then used to buy other commodities that better suited their consumption needs (C-M-C)[^fn18].  In contrast, under capitalism, the production of commodities for exchange is merely an intermediary step in a process initiated by capitalists to make more money, which Marx calls the "circuit of capital" (M-C-M'). In this process, capitalists use money (M) to buy labor power and raw materials, which are then transformed through production into commodities (C) that are sold for a greater amount of money (M')[^fn19]. The difference between M' and M, denoted as  <span class="arithmatex">\(\Delta M = M'-M\)</span> is the surplus value.</p>
 <p>Machinery and technological change play a critical role in this narrative. The transition from C-M-C to M-C-M' in the trade and industry sectors, and M-M' in the financial sector, was driven by the competitive nature of capitalism. The pursuit of profits emerged out of necessity, as capitalists had to accumulate money to reinvest in the latest technology or risk being undercut and driven out of business by their competitors. It was this cut-throat competition, rather than mere greed, that forced capitalists to strive for profits and shifted production towards generating profit instead of satisfying needs. However, any gains were short-lived; although a new cost-reducing technology might yield extraordinary profits for an individual capitalist, it was only temporary, as other capitalists would soon adopt the same technology, driving the profit rate back down.</p>
-<p>While the dynamism of capitalism is the central theme of "Das Kapital," it is all built on the exploitation of workers, which is the aspect of Marx's thought that is most commonly associated with him. Although the M-C-M' process may appear straightforward, Marx identifies a puzzle: how is the increase in value from M to M' achieved? Having wholeheartedly embraced Ricardo's labor theory of value—the idea that labor-embodied is the only source of value—Marx argues that the exchange process cannot increase value. Instead, he turns to examining the production process and identifies "labor power"<sup id="fnref:fn20"><a class="footnote-ref" href="#fn:fn20">21</a></sup> (as distinct from labor) as the only input with the capacity to create greater value than it costs the capitalist to hire. It is this difference that creates surplus and, consequently, profits.</p>
-<p>The critical part of the labor exploitation story is that workers are paid full competitive wages, but that labor works more hours than what is needed to cover the wage bill <sup id="fnref:fn21"><a class="footnote-ref" href="#fn:fn21">22</a></sup>. The competitive wage is kept low  by the existence of a vast pool of unemployed.</p>
+<p>While the dynamism of capitalism is the central theme of "Das Kapital," it is all built on the exploitation of workers, which is the aspect of Marx's thought that is most commonly associated with him. Although the M-C-M' process may appear straightforward, Marx identifies a puzzle: how is the increase in value from M to M' achieved? Having wholeheartedly embraced Ricardo's labor theory of value—the idea that labor-embodied is the only source of value—Marx argues that the exchange process cannot increase value. Instead, he turns to examining the production process and identifies "labor power"[^fn20] (as distinct from labor) as the only input with the capacity to create greater value than it costs the capitalist to hire. It is this difference that creates surplus and, consequently, profits.</p>
+<p>The critical part of the labor exploitation story is that workers are paid full competitive wages, but that labor works more hours than what is needed to cover the wage bill [^fn21]. The competitive wage is kept low  by the existence of a vast pool of unemployed.</p>
 <p>Capital, Volume 1 - Part II - chapter 15</p>
 <blockquote>
-<p><strong>The whole system of capitalist production is based on the fact that the workman sells his labour-power as a commodity*</strong>. Division of labour specialises this labour-power, by reducing it to skill in handling a particular tool. So soon as the handling of this tool becomes the work of a machine, then, with the use-value, the exchange-value too, of the workman’s labour-power vanishes; the workman becomes unsaleable, like paper money thrown out of currency by legal enactment.* <strong>That portion of the working-class, thus by machinery rendered superfluous, i.e., no longer immediately necessary for the self-expansion of capital, either goes to the wall in the unequal contest of the old handicrafts and manufactures with machinery, or else floods all the more easily accessible branches of industry, swamps the labour-market, and sinks the price of labour-power below its value*</strong>.*</p>
+<p><strong>The whole system of capitalist production is based on the fact that the workman sells his labour-power as a commodity</strong><em>. Division of labour specialises this labour-power, by reducing it to skill in handling a particular tool. So soon as the handling of this tool becomes the work of a machine, then, with the use-value, the exchange-value too, of the workman’s labour-power vanishes; the workman becomes unsaleable, like paper money thrown out of currency by legal enactment.</em> <strong>That portion of the working-class, thus by machinery rendered superfluous, i.e., no longer immediately necessary for the self-expansion of capital, either goes to the wall in the unequal contest of the old handicrafts and manufactures with machinery, or else floods all the more easily accessible branches of industry, swamps the labour-market, and sinks the price of labour-power below its value</strong><em>.</em></p>
 <p>[...]</p>
 <p><strong>It forms a disposable industrial reserve army, that belongs to capital quite as absolutely as if the latter had bred it at its own cost.</strong> <em>Independently of the limits of the actual increase of population, it creates, for the changing needs of the self-expansion of capital, a mass of human material always ready for exploitation.[...]</em> <strong>The more extensive, finally,the lazarus-layers of the working- class, and the industrial reserve army, the greater is official pauperism. This is the absolute general law of capitalist accumulation.</strong></p>
 </blockquote>
 <p>In this passage, Marx argues that the specialization of labor and the introduction of machinery render a portion of the working class superfluous, creating an "industrial reserve army" that is always available for exploitation by capitalists. This reserve army of unemployed workers keeps wages low and ensures a constant supply of labor for the expansion of capital.</p>
-<p>Marx continues his analysis by predicting a continuous increase in the concentration of capital, which he believes will eventually lead to an incompatibility with the functioning of the market economy, necessitating its replacement by an alternative social arrangement<sup id="fnref:fn22"><a class="footnote-ref" href="#fn:fn22">23</a></sup>.</p>
+<p>Marx continues his analysis by predicting a continuous increase in the concentration of capital, which he believes will eventually lead to an incompatibility with the functioning of the market economy, necessitating its replacement by an alternative social arrangement[^fn22].</p>
 <p>In terms of economic analysis, Marx's main contribution is probably the two-sector growth model presented in Volume 2.  Let me first present his verbal exposition and then Samuelson's mathematical rendering of Marx's model. </p>
 <p>Capital, Volume 2 - Part I - chapter 20</p>
 <blockquote>
@@ -728,7 +1086,7 @@ Even in this more realistic version where workers and capitalists share part of 
 <p><em>...The rate of surplus-value,</em> <strong>S/V</strong>, would = 100%. But, as we have seen, this rate of surplus-value would nonetheless express itself in very different rates of profit, depending on the different volumes of constant capital <strong>C</strong> <em>and consequently of the total capital</em> <strong>K</strong>, because the rate of profit = <strong>S/K</strong>. The rate of surplus-value is 100%: If c = 50, and v = 100, then p' = 100/150 = 66.6%; c = 100, and v = 100, then p' = 100/200 = 50%; c = 200, and v = 100, then p' = 100/300 = 33.3%; c = 300, and v = 100, then p' = 100/400 = 25%; c = 400, and v = 100, then p' = 100/500 = 20%. <strong>This is how the same rate of surplus-value would express itself under the same degree of labour exploitation in a falling rate of profit</strong>, because the material growth of the constant capital implies also a growth -- albeit not in the same proportion -- in its value, and consequently in that of the total capital.... then the gradual growth of constant capital in relation to variable capital must necessarily lead to a gradual fall of the general rate of profit, so long as the rate of surplus-value, or the intensity of exploitation of labour by capital, remain the same.</p>
 </blockquote>
 <p>This oral presentation, certainly clearer and more analytical than what we have reported for Volume 1, according to Samuelson, links Mark directly with Leontief and the Harrod-Robinson-Solow growth theory, and indirectly with Keynes, Metzler, and Hicks. So let us make sense of it and check if the above model is logically consistent with some of the main predictions of Marx for what regards the capitalistic system.</p>
-<h5 id="two-sectors-growth-model-samuelson">Two sectors "growth" model (Samuelson)<a class="headerlink" href="#two-sectors-growth-model-samuelson" title="Permanent link">&para;</a></h5>
+<h5 id="two-sectors-growth-model-samuelson">Two sectors "growth" model (Samuelson)</h5>
 <ul>
 <li>
 <p>time is discrete <span class="arithmatex">\(t\)</span></p>
@@ -763,7 +1121,7 @@ Even in this more realistic version where workers and capitalists share part of 
 <p><span class="arithmatex">\(<span class="arithmatex">\(a_{1}K_{t+1}+a_{2}Y_{t+1}\leqq L_{t}\)</span>\)</span> </p>
 <div class="arithmatex">\[b_{1}K_{t+1}+b_{2}Y_{t+1}\leqq K_{t}\]</div>
 <p>which represent the economy production possibilities. Given <span class="arithmatex">\(K_{t}\)</span> and <span class="arithmatex">\(L_{t}\)</span> this can be portrayed for example as in 1 (a) which shows what can be produced with the given inputs and with <span class="arithmatex">\(K_{t+1}\)</span> and <span class="arithmatex">\(Y_{t+1}\)</span> given as in 1 (b) which shows what inputs you need to produce those level of outputs. With growth the corner A will move northwest or southwest and the corner A' northeast. </p>
-<p><img alt="Marx_1" src="../assetsHT/Marx_1.png" /></p>
+<p><img alt="Marx_1" src="../assetsHT/Marx_1.png"/></p>
 <p>The relative prices <span class="arithmatex">\(\frac{p_{2,t+1}}{p_{1,t+1}}\)</span> must be equal to the slope of the Production possibility frontier at the production point actually observed. The relative prices of inputs <span class="arithmatex">\(\frac{w_{t}}{p_{1,t}}\)</span> can be any non negative number.</p>
 <p>To simplify, let us focus on the stationary state without growth that Mark calls simple reproduction. Assume <span class="arithmatex">\(L\)</span> fixed in the steady state (stationary state) and that capital <span class="arithmatex">\(K\)</span> will accommodate to the supply of labor, namely that the economy reaches point <span class="arithmatex">\(A\)</span> where no input is redundant and therefore free. Therefore <span class="arithmatex">\(p_{1},p_{2},w\)</span> are positive. Simple reproduction implies</p>
 <p><span class="arithmatex">\(<span class="arithmatex">\(L_{t}=L_{t+1}=...=L\)</span>\)</span> </p>
@@ -859,7 +1217,7 @@ Even in this more realistic version where workers and capitalists share part of 
     E --&gt; N 
     E --&gt; P 
     E --&gt; Q</code></pre>
-<h3 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h3>
+<h3 id="references">References</h3>
 <ul>
 <li>
 <p>Heilbroner, R. L. (1996). Teachings from the worldly philosophy. New York, W.W. Norton.</p>
@@ -889,174 +1247,69 @@ Even in this more realistic version where workers and capitalists share part of 
 <p>Smith, Adam, (1776), An Inquiry into the Nature and Causes of the Wealth of Nations, McMaster University Archive for the History of Economic Thought. **</p>
 </li>
 </ul>
-<p>The second contrinution regards the role of aggregate demand. In 1803, a French economist, <strong>Jean-Baptiste Say</strong>, famously postulated that supply "creates" demand<sup id="fnref:fn9"><a class="footnote-ref" href="#fn:fn9">24</a></sup>. On the contrary, Malthus believed economic crises were characterized by a general excess supply caused by insufficient consumption<sup id="fnref:fn10"><a class="footnote-ref" href="#fn:fn10">25</a></sup>. The discussions on Say's law and its rebuttal echo until today. Later, Keynes acknowledged Malthus as a precursor of his ideas on gluts and slumps.  </p>
+<p>[^fn1]:  During my Ph.D., one of my teachers, now a world-renowned economist, told me during a conversation that he believed the history of economic thought should not be part of the curriculum of a Ph.D. program. I wonder if he still thinks the same.
+[^fnwon1]:  <em>T</em>he annual labour of every nation is the fund which originally supplies it<strong> <em>with all the necessaries and conveniences of life which it annually consumes, and which consist always either in the immediate produce of that labour, or in what is purchased with that produce from other nations. According therefore as this produce, or what is purchased with it, bears a greater or smaller proportion to the number of those who are to consume it, the nation will be better or worse supplied with all the necessaries and conveniences for which it has occasion. But this proportion must in every nation be regulated by two different circumstances; first, by the<em> </em>*skill, dexterity, and judgment with which its labour is generally applied</em></strong>; and, secondly, by the<em> </em><em>proportion between the number of those who are employed in useful labour, and that of those who are not so employed</em><strong>. [...]<em> <em>Among civilised and thriving nations, on the contrary, though a great number of people do not labour at all, many of whom consume the produce of ten times, frequently of a hundred times more labour than the greater part of those who work; yet the produce of the whole labour of the society is so great that all are often abundantly supplied, and a workman, even of the lowest and poorest order, if he is frugal and industrious, may enjoy a greater share of the necessaries and conveniences of life than it is possible for any savage to acquire. The causes of this improvement, in</em> **the productive powers of labour, and the order, according to which its produce is naturally distributed among the different ranks and conditions of men in the society, make the subject of the first book of this Inquiry</em></strong>. [...] The number of useful and productive labourers, it will hereafter appear, is everywhere in proportion to the quantity of<em> </em><em>capital stock</em><em> </em>which is employed in setting them to work, and to the particular way in which it is so employed. The second book, therefore, treats of the nature of capital stock, of the manner in which it is<em> </em><em>gradually accumulated</em>*<em>, and of the different quantities of labour which it puts into motion, according to the different ways in which it is employed.</em> Introduction and plan of the work.</p>
+<p>[^fnwon3]: <em>As it is the power of exchanging that gives occasion to the division of labour, so the extent of this division must always be limited by the extent of that power, or, in other words, by the</em> <strong>extent of the market</strong><em>...in the lone houses and very small villages which are scattered about in so desert a country as the Highlands of Scotland, every farmer must be butcher, baker and brewer for his own family.</em></p>
+<p>[^fn3]: "The word value, it is to be observed, has two different meanings, and sometimes expresses the utility of some particular object, and sometimes the power of purchasing other goods which the possession of that object conveys. The one may be called <strong>“value in use”</strong>; the other, <strong>“value in exchange.” </strong>The things which have the greatest value in use have frequently little or no value in exchange; and, on the contrary, those which have the greatest value in exchange have frequently little or no value in use. Nothing is more useful than water: but it will purchase scarce anything; scarce anything can be had in exchange for it. A diamond, on the contrary, has scarce any value in use; but a very great quantity of other goods may frequently be had in exchange for it."  Wealth of Nations - On the origin and use of Money - chapter IV
+[^fn4]: "<strong>The real price of everything</strong>, what everything really costs to the man who wants to acquire it, <strong>is the toil and trouble of acquiring it</strong>. What everything is really worth to the man who has acquired it, and who wants to dispose of it or exchange it for something else, is the toil of our own body. That money or those goods save us this toil. They contain the value of a certain quantity of labour which we exchange for what is supposed at the time to contain the value of an equal quantity. Labour was the first price, the original purchase-money that was paid for all things. It was not by gold or  by silver, but by labour, that all the wealth of the world was originally purchased; and <strong>its value, to those who possess it, and who want to exchange it for some new productions, is precisely equal to the quantity of labour which it can enable them to purchase or command</strong>." Wealth of Nations - On the origin and use of Money - chapter V"
+[^fn5]: ...In this state of things (after the early state of society), the whole produce of labour does not always belong to the labourer. He must in most cases share it with the owner of the <strong>stock</strong> which employs him. Neither is the quantity of labour commonly employed in acquiring or producing any commodity, the only circumstance which can regulate the quantity which it ought commonly to purchase, command, or exchange for. <strong>An additional quantity, it is evident, must be due for the profits of the stock which advanced the wage and furnished the materials of that labour.</strong>  ... As soon as the land of any country has all become private property, the landlords, like all other men, love to <strong>reap where they never sowed</strong>, and demand a <strong>rent even for its natural produce</strong>. Of the Component Parts of the Price of Commodities - chapter VI</p>
+<p>[^fn6]: <strong>People of the same trade seldom meet</strong> together, even for merriment and diversion, but the conversation ends in a conspiracy against the public or in some <strong>contrivance to raise prices</strong>. It is impossible indeed to prevent such meetings, by any law which either could be executed  or would be consistent with liberty and justice. But though the law cannot hinder people of the same trade from sometimes assembling together  it ought to do nothing to facilitate such assemblies, much less to render them necessary. Book 1 - Chapter X
+[^fn7]: It is chiefly by discounting <strong>bills of exchange</strong>, that is, by advancing money upon them before they are due, that the greater part of banks and bankers issue their promissory notes. They deduct always, upon whatever sum they advance, the <strong>legal interest</strong> till the bill shall become due.[...] It is not by augmenting the capital of the country, but by <strong>rendering a greater part of that capital active and productive</strong> than would otherwise be so, that the most judicious operations of <strong>banking</strong> can increase the industry of the country. Book II</p>
+<p>[^fn8]: "Famine seems to be the last, the most dreadful resource of nature. The power of population is so superior to the power in the earth to produce subsistence for man, that premature death must in some shape or other visit the human race. The vices of mankind are active and able ministers of depopulation. They are the precursors in the great army of destruction; and often finish the dreadful work themselves. But should they fail in this war of extermination, sickly seasons, epidemics, pestilence, and plague, advance in terrific array, and sweep off their thousands and ten thousands. Should success be still incomplete, gigantic inevitable famine stalks in the rear, and with one mighty blow levels the population with the food of the world. Must it not then be acknowledged by an attentive examiner of the histories of mankind, that in every age and in every state in which man has existed, or does now exist. <strong>That the increase of population is necessarily limited by the means of subsistence</strong>. That population does invariably increase when the means of subsistence increase. And that the superior power of population it repressed, and the actual population kept equal to the means of subsistence, by misery and vice?"</p>
+<p>The second contrinution regards the role of aggregate demand. In 1803, a French economist, <strong>Jean-Baptiste Say</strong>, famously postulated that supply "creates" demand[^fn9]. On the contrary, Malthus believed economic crises were characterized by a general excess supply caused by insufficient consumption[^fn10]. The discussions on Say's law and its rebuttal echo until today. Later, Keynes acknowledged Malthus as a precursor of his ideas on gluts and slumps.  </p>
+<p>[^fn11]:   "<strong>The produce</strong> of the <strong>earth—all</strong> that is derived from its surface by the united application of <strong>labour</strong>, <strong>machinery</strong>, and <strong>capital</strong>, is divided among <strong>three classes</strong> of the community; namely,<strong>the proprietor of the land, the owner of the stock or capital</strong> necessary for its cultivation,and <strong>the labourers</strong> by whose industry it is cultivated. But in different stages of society,the proportions of the whole produce of the earth which will be allotted to each of these classes,under the names of <strong>rent</strong>, <strong>profit</strong>, and <strong>wages</strong>, will be essentially different;depending mainly on the actual fertility of the soil, on the accumulation of capital and population,and on the skill, ingenuity, and instruments employed in agriculture. <strong>To determine the laws which regulate this distribution, is the principal problem in Political Economy</strong>: much as the science has been improved by the writings of Turgot, Stuart, Smith, Say, Sismondi,and others, they afford very little satisfactory information respecting the natural course of rent, profit, and wages."</p>
+<p>[^fn12]: "When commodities varied in relative value, it would be desirable to have the means of ascertaining which of them fell and which rose in real value, and this could be effected only by comparing them one after another with some invariable standard measure of value, which should itself be subject to none of the fluctuations to which other commodities are exposed. Of such a measure it is impossible to be possessed..."</p>
+<p>[^fnric1]: <em>Labour, like all other things which are purchased and sold, and which may be increased or diminished in quantity, has its</em> <strong>natural</strong> <em>and its</em> <strong>market price</strong><em>. The natural price of labour is that price which is necessary to enable the labourers, one with another, to subsist and to perpetuate their race, without either increase or diminution.</em></p>
+<p>[^fn13]: "In one and the same country, profits are, generally speaking, always on the same level; or differ only as the employment of capital may be more or less secure and agreeable. It is not so between different countries. If the profits of capital employed in Yorkshire, should exceed those of capital employed in London, capital would speedily move from London to Yorkshire, and an equality of profits would be effected; but if in consequence of the diminished rate of production in the lands of England, from the increase of capital and population, wages should rise, and profits fall, <strong>it would not follow that capital and population would necessarily move from England to Holland, or Spain, or Russia, where profits might be higher</strong>."</p>
+<p>[^fn14]: "<strong>The laws and conditions of the production of wealth partake of the character of physical truths. There is nothing optional or arbitrary in them</strong>[...]It is not so with the Distribution of Wealth. That is a matter of human institution solely. The things once there, mankind, individually or collectively,can do with them as they like[...] <strong>The distribution of wealth, therefore, depends on the laws and customs of society</strong>. The rules by which it is determined, are what the opinions and feelings of the ruling portion of the community make them, and are very different in different ages and countries; and might be still more different, if mankind so chose."</p>
 <blockquote>
 <p>The opinions and feelings of mankind, doubtless, are not a matter of chance.
 They are consequences of the fundamental laws of human nature, combined with the existing state of knowledge and experience, and the existing condition of social institutions and intellectual and moral culture. But the laws of the generation of human opinions are not within our present subject. They are part of the general theory of human progress, a far larger and more difficult subject of inquiry than political economy. We have here to consider, not the causes, but the consequences, of the rules according to which wealth may be distributed. Those, at least, are as little arbitrary, and have as much
 the character of physical laws, as the laws of production.</p>
 </blockquote>
+<p>[^fn15]: "The proper mathematical analogy [between demand and supply] is that of an <strong>equation</strong>.  If unequal at any moment, competition equalizes them, and the manner in which this is done is by an adjustment of the value. If the demand increases, the value rises; if the demand diminishes, the value falls; again, if the supply falls off, the value rises; and falls, if the supply is increased.  The rise or the fall continues until the demand and supply are again equal to one another:  and the value which a commodity will bring in any market is no other than the value which, in that market, gives a demand just sufficient to carry off the existing or expected supply."</p>
 <p>Principles of Political Economy - Book III - Chapter XIV</p>
 <blockquote>
 <p>The produce of a country exchanges for the produce of other countries at such values as are required in order that the whole of her exports may exactly pay for the whole of her imports. This law of International Values is but an extension of the more general law of Value, which we called the Equation of Supply and Demand. We have seen that the value of a commodity always so adjusts itself as to bring the demand to the exact level of the supply.
 But all trade, either between nations or individuals, is an interchange of commodities,  in which the things that they respectively have to sell constitute also their means of purchase: the supply brought by the one constitutes his demand for what is brought by the other.  So that supply and demand are but another expression for <strong>reciprocal demand</strong>; and to say that value will adjust itself so as to equalize demand with supply, is, in fact, to say that it will adjust itself so as to equalize the demand on one side with the demand on the other.</p>
 </blockquote>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:fn1">
-<p>During my Ph.D., one of my teachers, now a world-renowned economist, told me during a conversation that he believed the history of economic thought should not be part of the curriculum of a Ph.D. program. I wonder if he still thinks the same.&#160;<a class="footnote-backref" href="#fnref:fn1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fnwon1">
-<p><em>T*he annual labour of every nation is the fund which originally supplies it** *with all the necessaries and conveniences of life which it annually consumes, and which consist always either in the immediate produce of that labour, or in what is purchased with that produce from other nations. According therefore as this produce, or what is purchased with it, bears a greater or smaller proportion to the number of those who are to consume it, the nation will be better or worse supplied with all the necessaries and conveniences for which it has occasion. But this proportion must in every nation be regulated by two different circumstances; first, by the</em> <strong>skill, dexterity, and judgment with which its labour is generally applied*</strong>; and, secondly, by the* <strong>proportion between the number of those who are employed in useful labour, and that of those who are not so employed*</strong>. [...]* <em>Among civilised and thriving nations, on the contrary, though a great number of people do not labour at all, many of whom consume the produce of ten times, frequently of a hundred times more labour than the greater part of those who work; yet the produce of the whole labour of the society is so great that all are often abundantly supplied, and a workman, even of the lowest and poorest order, if he is frugal and industrious, may enjoy a greater share of the necessaries and conveniences of life than it is possible for any savage to acquire. The causes of this improvement, in</em> <strong>the productive powers of labour, and the order, according to which its produce is naturally distributed among the different ranks and conditions of men in the society, make the subject of the first book of this Inquiry*</strong>. [...] The number of useful and productive labourers, it will hereafter appear, is everywhere in proportion to the quantity of* <strong>capital stock</strong> <em>which is employed in setting them to work, and to the particular way in which it is so employed. The second book, therefore, treats of the nature of capital stock, of the manner in which it is</em> <strong>gradually accumulated*</strong>, and of the different quantities of labour which it puts into motion, according to the different ways in which it is employed.* Introduction and plan of the work.&#160;<a class="footnote-backref" href="#fnref:fnwon1" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fnwon3">
-<p><em>As it is the power of exchanging that gives occasion to the division of labour, so the extent of this division must always be limited by the extent of that power, or, in other words, by the</em> <strong>extent of the market*</strong>...in the lone houses and very small villages which are scattered about in so desert a country as the Highlands of Scotland, every farmer must be butcher, baker and brewer for his own family.*&#160;<a class="footnote-backref" href="#fnref:fnwon3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn3">
-<p>"The word value, it is to be observed, has two different meanings, and sometimes expresses the utility of some particular object, and sometimes the power of purchasing other goods which the possession of that object conveys. The one may be called <strong>“value in use”</strong>; the other, **“value in exchange.” **The things which have the greatest value in use have frequently little or no value in exchange; and, on the contrary, those which have the greatest value in exchange have frequently little or no value in use. Nothing is more useful than water: but it will purchase scarce anything; scarce anything can be had in exchange for it. A diamond, on the contrary, has scarce any value in use; but a very great quantity of other goods may frequently be had in exchange for it."  Wealth of Nations - On the origin and use of Money - chapter IV&#160;<a class="footnote-backref" href="#fnref:fn3" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn4">
-<p>"<strong>The real price of everything</strong>, what everything really costs to the man who wants to acquire it, <strong>is the toil and trouble of acquiring it</strong>. What everything is really worth to the man who has acquired it, and who wants to dispose of it or exchange it for something else, is the toil of our own body. That money or those goods save us this toil. They contain the value of a certain quantity of labour which we exchange for what is supposed at the time to contain the value of an equal quantity. Labour was the first price, the original purchase-money that was paid for all things. It was not by gold or  by silver, but by labour, that all the wealth of the world was originally purchased; and <strong>its value, to those who possess it, and who want to exchange it for some new productions, is precisely equal to the quantity of labour which it can enable them to purchase or command</strong>." Wealth of Nations - On the origin and use of Money - chapter V"&#160;<a class="footnote-backref" href="#fnref:fn4" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn5">
-<p>...In this state of things (after the early state of society), the whole produce of labour does not always belong to the labourer. He must in most cases share it with the owner of the <strong>stock</strong> which employs him. Neither is the quantity of labour commonly employed in acquiring or producing any commodity, the only circumstance which can regulate the quantity which it ought commonly to purchase, command, or exchange for. <strong>An additional quantity, it is evident, must be due for the profits of the stock which advanced the wage and furnished the materials of that labour.</strong>  ... As soon as the land of any country has all become private property, the landlords, like all other men, love to <strong>reap where they never sowed</strong>, and demand a <strong>rent even for its natural produce</strong>. Of the Component Parts of the Price of Commodities - chapter VI&#160;<a class="footnote-backref" href="#fnref:fn5" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn6">
-<p><strong>People of the same trade seldom meet</strong> together, even for merriment and diversion, but the conversation ends in a conspiracy against the public or in some <strong>contrivance to raise prices</strong>. It is impossible indeed to prevent such meetings, by any law which either could be executed  or would be consistent with liberty and justice. But though the law cannot hinder people of the same trade from sometimes assembling together  it ought to do nothing to facilitate such assemblies, much less to render them necessary. Book 1 - Chapter X&#160;<a class="footnote-backref" href="#fnref:fn6" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn7">
-<p>It is chiefly by discounting <strong>bills of exchange</strong>, that is, by advancing money upon them before they are due, that the greater part of banks and bankers issue their promissory notes. They deduct always, upon whatever sum they advance, the <strong>legal interest</strong> till the bill shall become due.[...] It is not by augmenting the capital of the country, but by <strong>rendering a greater part of that capital active and productive</strong> than would otherwise be so, that the most judicious operations of <strong>banking</strong> can increase the industry of the country. Book II&#160;<a class="footnote-backref" href="#fnref:fn7" title="Jump back to footnote 8 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn8">
-<p>"Famine seems to be the last, the most dreadful resource of nature. The power of population is so superior to the power in the earth to produce subsistence for man, that premature death must in some shape or other visit the human race. The vices of mankind are active and able ministers of depopulation. They are the precursors in the great army of destruction; and often finish the dreadful work themselves. But should they fail in this war of extermination, sickly seasons, epidemics, pestilence, and plague, advance in terrific array, and sweep off their thousands and ten thousands. Should success be still incomplete, gigantic inevitable famine stalks in the rear, and with one mighty blow levels the population with the food of the world. Must it not then be acknowledged by an attentive examiner of the histories of mankind, that in every age and in every state in which man has existed, or does now exist. <strong>That the increase of population is necessarily limited by the means of subsistence</strong>. That population does invariably increase when the means of subsistence increase. And that the superior power of population it repressed, and the actual population kept equal to the means of subsistence, by misery and vice?"&#160;<a class="footnote-backref" href="#fnref:fn8" title="Jump back to footnote 9 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn11">
-<p>"<strong>The produce</strong> of the <strong>earth—all</strong> that is derived from its surface by the united application of <strong>labour</strong>, <strong>machinery</strong>, and <strong>capital</strong>, is divided among <strong>three classes</strong> of the community; namely,<strong>the proprietor of the land, the owner of the stock or capital</strong> necessary for its cultivation,and <strong>the labourers</strong> by whose industry it is cultivated. But in different stages of society,the proportions of the whole produce of the earth which will be allotted to each of these classes,under the names of <strong>rent</strong>, <strong>profit</strong>, and <strong>wages</strong>, will be essentially different;depending mainly on the actual fertility of the soil, on the accumulation of capital and population,and on the skill, ingenuity, and instruments employed in agriculture. <strong>To determine the laws which regulate this distribution, is the principal problem in Political Economy</strong>: much as the science has been improved by the writings of Turgot, Stuart, Smith, Say, Sismondi,and others, they afford very little satisfactory information respecting the natural course of rent, profit, and wages."&#160;<a class="footnote-backref" href="#fnref:fn11" title="Jump back to footnote 10 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn12">
-<p>"When commodities varied in relative value, it would be desirable to have the means of ascertaining which of them fell and which rose in real value, and this could be effected only by comparing them one after another with some invariable standard measure of value, which should itself be subject to none of the fluctuations to which other commodities are exposed. Of such a measure it is impossible to be possessed..."&#160;<a class="footnote-backref" href="#fnref:fn12" title="Jump back to footnote 11 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fnric1">
-<p><em>Labour, like all other things which are purchased and sold, and which may be increased or diminished in quantity, has its</em> <strong>natural</strong> <em>and its</em> <strong>market price*</strong>. The natural price of labour is that price which is necessary to enable the labourers, one with another, to subsist and to perpetuate their race, without either increase or diminution.*&#160;<a class="footnote-backref" href="#fnref:fnric1" title="Jump back to footnote 12 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn13">
-<p>"In one and the same country, profits are, generally speaking, always on the same level; or differ only as the employment of capital may be more or less secure and agreeable. It is not so between different countries. If the profits of capital employed in Yorkshire, should exceed those of capital employed in London, capital would speedily move from London to Yorkshire, and an equality of profits would be effected; but if in consequence of the diminished rate of production in the lands of England, from the increase of capital and population, wages should rise, and profits fall, <strong>it would not follow that capital and population would necessarily move from England to Holland, or Spain, or Russia, where profits might be higher</strong>."&#160;<a class="footnote-backref" href="#fnref:fn13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn14">
-<p>"<strong>The laws and conditions of the production of wealth partake of the character of physical truths. There is nothing optional or arbitrary in them</strong>[...]It is not so with the Distribution of Wealth. That is a matter of human institution solely. The things once there, mankind, individually or collectively,can do with them as they like[...] <strong>The distribution of wealth, therefore, depends on the laws and customs of society</strong>. The rules by which it is determined, are what the opinions and feelings of the ruling portion of the community make them, and are very different in different ages and countries; and might be still more different, if mankind so chose."&#160;<a class="footnote-backref" href="#fnref:fn14" title="Jump back to footnote 14 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn15">
-<p>"The proper mathematical analogy [between demand and supply] is that of an <strong>equation</strong>.  If unequal at any moment, competition equalizes them, and the manner in which this is done is by an adjustment of the value. If the demand increases, the value rises; if the demand diminishes, the value falls; again, if the supply falls off, the value rises; and falls, if the supply is increased.  The rise or the fall continues until the demand and supply are again equal to one another:  and the value which a commodity will bring in any market is no other than the value which, in that market, gives a demand just sufficient to carry off the existing or expected supply."&#160;<a class="footnote-backref" href="#fnref:fn15" title="Jump back to footnote 15 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn16">
-<p>"Setting out, then, from the maxim that equal sacrifices ought to be demanded from all, we have next to inquire whether this is in fact done, by <strong>making each contribute the same percentage on his pecuniary means</strong>. Many persons maintain the negative, saying that a tenth part taken from a small income is a heavier burthen than the same fraction deducted from one much larger: and on this is grounded the very popular scheme of what is called a graduated property tax, viz. an income tax in which the percentage rises with the amount of the income[...]The mode of adjusting these inequalities of pressure, which seems to be the most equitable, is that recommended by Bentham, of leaving a <strong>certain minimum of income, sufficient to provide the necessaries of life, untaxed</strong>. Suppose 50l."&#160;<a class="footnote-backref" href="#fnref:fn16" title="Jump back to footnote 16 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fnm1">
-<p>On the other hand, we may suppose this better distribution of property attained, by the joint effect of the prudence and frugality of individuals, and of a system of legislation favouring equality of fortunes, so far as is consistent with the just claim of the individual to the fruits, whether great or small, of his or her own industry. We may suppose, for instance [...], a limitation of the sum which any one person may acquire by gift or inheritance, to the amount sufficient to constitute a moderate independence...&#160;<a class="footnote-backref" href="#fnref:fnm1" title="Jump back to footnote 17 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn17">
-<p>Actually you can show that the model is stable starting from any condition. However sticking to the fixed proportions classical assumptions the redundant factor has a price equal to zero until it decreases to the existing quantity of the other factor. Formally competition implies <span class="arithmatex">(<span class="arithmatex">\(if \ K&gt;L \ =&gt; r=0\)</span>\)</span>,<span class="arithmatex">(<span class="arithmatex">\(if \ L&gt;K \ =&gt; w=0\)</span>\)</span> and $$ w+r = f'(min{(K,L)})$$.&#160;<a class="footnote-backref" href="#fnref:fn17" title="Jump back to footnote 18 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn18">
-<p><em>The circulation of commodities is the starting-point of capital. The production of commodities, their circulation, and that more developed form of their circulation called commerce, these form the historical ground-work from which it rises. The modern history of capital dates from the creation in the 16<sup>th</sup> century of a world-embracing commerce and a world-embracing market. As a matter of history, capital, as opposed to landed property, invariably takes the form at first of money; it appears as moneyed wealth, as the capital of the merchant and of the usurer. But we have no need to refer to the origin of capital in order to discover that the first form of appearance of capital is money. We can see it daily under our very eyes. All new capital, to commence with, comes on the stage, that is, on the market, whether of commodities, labour, or money, even in our days, in the shape of money that by a definite process has to be transformed into capital.</em> <strong>The first distinction we notice between money that is money only, and money that is capital, is nothing more than a difference in their form of circulation*</strong>. The simplest form of the circulation of commodities is* <strong>C—M—C*</strong>, the transformation of commodities into money, and the change of the money back again into commodities; or selling in order to buy. But alongside of this form we find another specifically different form:* <strong>M—C—M</strong> <em>, the transformation of money into commodities, and the change of commodities back again into money; or buying in order to sell. Money that circulates in the latter manner is thereby transformed into, becomes capital, and is already potentially capital.... The simple circulation of commodities— selling in order to buy—is a means of carrying out a purpose unconnected with circulation, namely, the appropriation of use-values, the satisfaction of wants.</em> <strong>The circulation of money as capital is, on the contrary, an end in itself*</strong>, for the expansion of value takes place only within this constantly renewed movement. The circulation of capital has therefore no limits.... As the conscious representative of this movement, the possessor of money becomes a capitalist. His person, or rather his pocket, is the point from which the money starts and to which it returns.* Capital, Volume 1 - Part II - chapter 4&#160;<a class="footnote-backref" href="#fnref:fn18" title="Jump back to footnote 19 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn19">
-<p><strong>The expansion of value, which is the objective basis or main-spring of the circulation M—C—M', becomes his subjective aim*</strong>, and it is only in so far as the appropriation of ever more and more wealth in the abstract becomes the sole motive of his operations, that he functions as a capitalist, that is, as capital personified and endowed with consciousness and a will.* <strong>Use-values must therefore never be looked upon as the real aim of the capitalist; neither must the profit on any single transaction*</strong>. The restless never-ending process of profit-making alone is what he aims at. This boundless greed after riches, this passionate chase after exchange-value, is common to the capitalist and the miser; but while the miser is merely a capitalist gone mad, the capitalist is a rational miser. The never-ending augmentation of exchange-value, which the miser strives after, by seeking to save his money from circulation, is attained by the more acute capitalist, by constantly throwing it afresh into circulation. Value therefore now becomes value in process, money in process, and, as such, capital. It comes out of circulation, enters into it again, preserves and multiplies itself within its circuit, comes back out of it with expanded bulk, and begins the same round ever afresh. M—M’, money which begets money, such is the description of Capital from the mouths of its first interpreters, the Mercantilists.* <strong>Buying in order to sell, or, more accurately, buying in order to sell dearer, M—C—M’*</strong>, appears certainly to be a form peculiar to one kind of capital alone, namely, merchants’ capital. But industrial capital too is money, that is changed into commodities, and by the sale of these commodities, is re-converted into more money. The events that take place outside the sphere of circulation, in the interval between the buying and selling, do not affect the form of this movement.* <strong>Lastly, in the case of interest- bearing capital, the circulation M—C—M’ appears abridged. We have its result without the intermediate stage, in the form M—M’</strong>, “en style lapidaire” so to say, money that is worth more money, value that is greater than itself. M—C—M’ is therefore in reality the general formula of capital as it appears prima facie within the sphere of circulation.&#160;<a class="footnote-backref" href="#fnref:fn19" title="Jump back to footnote 20 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn20">
-<p><strong>By the purchase of labour-power, the capitalist incorporates labour, as a living ferment, with the lifeless constituents of the product*</strong>. From his point of view, the labour-process is nothing more than the consumption of the commodity purchased, i.e., of labour-power; but this consumption cannot be effected except by supplying the labour-power with the means of production. The labour-process is a process between things that the capitalist has purchased, things that have become his property. The product of this process belongs, therefore, to him, just as much as does the wine which is the product of a process of fermentation completed in his cellar.*  Capital, Volume 1 - Part II - chapter 7&#160;<a class="footnote-backref" href="#fnref:fn20" title="Jump back to footnote 21 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn21">
-<p><strong>The fact that half a day’s labour is necessary to keep the labourer alive during 24 hours, does not in any way prevent him from working a whole day.</strong> <em>Therefore, the value of labour-power, and the value which that labour-power creates in the labour-process, are two entirely different magnitudes; and this difference of the two values was what the capitalist had in view, when he was purchasing the labour-power. The useful qualities that labour-power possesses, and by virtue of which it makes yarn or boots, were to him nothing more than a conditio sine qua non; for in order to create value, labour must be expended in a useful manner. What really influenced him was the specific use-value which this commodity possesses of being a source not only of value, but of more value than it has itself.</em> Capital, Volume 1 - Part II - chapter 7&#160;<a class="footnote-backref" href="#fnref:fn21" title="Jump back to footnote 22 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn22">
-<p><strong>As soon as this process of transformation has sufficiently decomposed the old society from top to bottom</strong>, as soon as the labourers are turned into proletarians, their means of labour into capital, as soon as the capitalist mode of production stands on its own feet, then the further socialisation of labour and further transformation of the land and other means of production into socially exploited and, therefore, common means of production, as well as the further expropriation of private proprietors, takes a new form.* <strong>That which is now to be expropriated is no longer the labourer working for himself, but the capitalist exploiting many labourers.</strong> <em>This expropriation is accomplished by the action of the immanent laws of capitalistic production itself, by the centralisation of capital.</em> <strong>One capitalist always kills many*</strong>.Hand in hand with this centralisation, or this expropriation of many capitalists by few, develop, on an ever-extending scale, the co-operative form of the labour-process, the conscious technical application of science, the methodical cultivation of the soil, the transformation of the instruments of labour into instruments of labour only usable in common, the economising of all means of production by their use as the means of production of combined, socialised labour, the entanglement of all peoples in the net of the world-market, and with this, the international character of the capitalistic régime. Along with the constantly diminishing number of the magnates of capital, who usurp and monopolise all advantages of this process of transformation, grows the mass of misery, oppression, slavery, degradation, exploitation; but with this too grows the revolt of the working-class, a class always increasing in numbers, and disciplined, united, organised by the very mechanism of the process of capitalist production itself.* <strong>The monopoly of capital becomes a fetter upon the mode of production*</strong>, which has sprung up and flourished along with, and under it.<strong>Centralisation of the means of production and socialisation of labour at last reach a point where they become incompatible with their capitalist integument</strong>. Thus integument is burst asunder. The knell of capitalist private property sounds. <strong>The expropriators are expropriated*</strong>.&#160;<a class="footnote-backref" href="#fnref:fn22" title="Jump back to footnote 23 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn9">
-<p>"It is worthwhile to remark that a product is no sooner created than it, from that instant, affords a market for other products to the full extent of its own value. When the producer has put the finishing hand to his product, he is most anxious to sell it immediately, lest its value should diminish in his hands. Nor is he less anxious to dispose of the money he may get for it; for the value of money is also perishable. But the only way of getting rid of money is in the purchase of some product or other. Thus the mere circumstance of creation of one product immediately opens a vent for other products." J.B. Say A treatise on Political Economy.&#160;<a class="footnote-backref" href="#fnref:fn9" title="Jump back to footnote 24 in the text">&#8617;</a></p>
-</li>
-<li id="fn:fn10">
-<p>"It has been thought by some very able writers, that although <strong>there may easily be a glut of particular commodities, there cannot possibly be a glut of commodities in general;</strong>  because, according to their view of the subject, commodities being always exchanged for commodities,  one half will furnish the market for the other half, and <strong>production being the only source of demand</strong>, an excess in the supply of one article merely proves a deficiency in the supply of some other, and a general excess is impossible. <strong>M. Say</strong>, in his distinguished work on political economy, has indeed gone so far as to state that the consumption of a commodity by taking it out of the market diminishes demand, and the production of a commodity proportionally increases it. <strong>This doctrine, however [...], appears to me to be utterly unfounded and completely to contradict the great principles which regulate supply and demand.</strong>"&#160;<a class="footnote-backref" href="#fnref:fn10" title="Jump back to footnote 25 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div></div>
-            </div>
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="../js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = "..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../js/base.js"></script>
-        <script src="../javascripts/mathjax.js"></script>
-        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-        <script src="../search/main.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
+<p>[^fn16]: "Setting out, then, from the maxim that equal sacrifices ought to be demanded from all, we have next to inquire whether this is in fact done, by <strong>making each contribute the same percentage on his pecuniary means</strong>. Many persons maintain the negative, saying that a tenth part taken from a small income is a heavier burthen than the same fraction deducted from one much larger: and on this is grounded the very popular scheme of what is called a graduated property tax, viz. an income tax in which the percentage rises with the amount of the income[...]The mode of adjusting these inequalities of pressure, which seems to be the most equitable, is that recommended by Bentham, of leaving a <strong>certain minimum of income, sufficient to provide the necessaries of life, untaxed</strong>. Suppose 50l." 
+[^fnm1]: On the other hand, we may suppose this better distribution of property attained, by the joint effect of the prudence and frugality of individuals, and of a system of legislation favouring equality of fortunes, so far as is consistent with the just claim of the individual to the fruits, whether great or small, of his or her own industry. We may suppose, for instance [...], a limitation of the sum which any one person may acquire by gift or inheritance, to the amount sufficient to constitute a moderate independence...</p>
+<p>[^fn17]: Actually you can show that the model is stable starting from any condition. However sticking to the fixed proportions classical assumptions the redundant factor has a price equal to zero until it decreases to the existing quantity of the other factor. Formally competition implies <span class="arithmatex">\(<span class="arithmatex">\(if \ K&gt;L \ =&gt; r=0\)</span>\)</span>,<span class="arithmatex">\(<span class="arithmatex">\(if \ L&gt;K \ =&gt; w=0\)</span>\)</span> and $$ w+r = f'(min{(K,L)})$$.</p>
+<p>[^fn18]: <em>The circulation of commodities is the starting-point of capital. The production of commodities, their circulation, and that more developed form of their circulation called commerce, these form the historical ground-work from which it rises. The modern history of capital dates from the creation in the 16th century of a world-embracing commerce and a world-embracing market. As a matter of history, capital, as opposed to landed property, invariably takes the form at first of money; it appears as moneyed wealth, as the capital of the merchant and of the usurer. But we have no need to refer to the origin of capital in order to discover that the first form of appearance of capital is money. We can see it daily under our very eyes. All new capital, to commence with, comes on the stage, that is, on the market, whether of commodities, labour, or money, even in our days, in the shape of money that by a definite process has to be transformed into capital.</em> <strong>The first distinction we notice between money that is money only, and money that is capital, is nothing more than a difference in their form of circulation</strong><em>. The simplest form of the circulation of commodities is</em> <strong>C—M—C</strong><em>, the transformation of commodities into money, and the change of the money back again into commodities; or selling in order to buy. But alongside of this form we find another specifically different form:</em> <strong>M—C—M</strong> <em>, the transformation of money into commodities, and the change of commodities back again into money; or buying in order to sell. Money that circulates in the latter manner is thereby transformed into, becomes capital, and is already potentially capital.... The simple circulation of commodities— selling in order to buy—is a means of carrying out a purpose unconnected with circulation, namely, the appropriation of use-values, the satisfaction of wants.</em> <strong>The circulation of money as capital is, on the contrary, an end in itself</strong><em>, for the expansion of value takes place only within this constantly renewed movement. The circulation of capital has therefore no limits.... As the conscious representative of this movement, the possessor of money becomes a capitalist. His person, or rather his pocket, is the point from which the money starts and to which it returns.</em> Capital, Volume 1 - Part II - chapter 4
+[^fn19]: <strong>The expansion of value, which is the objective basis or main-spring of the circulation M—C—M', becomes his subjective aim</strong><em>, and it is only in so far as the appropriation of ever more and more wealth in the abstract becomes the sole motive of his operations, that he functions as a capitalist, that is, as capital personified and endowed with consciousness and a will.</em> <strong>Use-values must therefore never be looked upon as the real aim of the capitalist; neither must the profit on any single transaction</strong><em>. The restless never-ending process of profit-making alone is what he aims at. This boundless greed after riches, this passionate chase after exchange-value, is common to the capitalist and the miser; but while the miser is merely a capitalist gone mad, the capitalist is a rational miser. The never-ending augmentation of exchange-value, which the miser strives after, by seeking to save his money from circulation, is attained by the more acute capitalist, by constantly throwing it afresh into circulation. Value therefore now becomes value in process, money in process, and, as such, capital. It comes out of circulation, enters into it again, preserves and multiplies itself within its circuit, comes back out of it with expanded bulk, and begins the same round ever afresh. M—M’, money which begets money, such is the description of Capital from the mouths of its first interpreters, the Mercantilists.</em> <strong>Buying in order to sell, or, more accurately, buying in order to sell dearer, M—C—M’</strong><em>, appears certainly to be a form peculiar to one kind of capital alone, namely, merchants’ capital. But industrial capital too is money, that is changed into commodities, and by the sale of these commodities, is re-converted into more money. The events that take place outside the sphere of circulation, in the interval between the buying and selling, do not affect the form of this movement.</em> <strong>Lastly, in the case of interest- bearing capital, the circulation M—C—M’ appears abridged. We have its result without the intermediate stage, in the form M—M’</strong>, “en style lapidaire” so to say, money that is worth more money, value that is greater than itself. M—C—M’ is therefore in reality the general formula of capital as it appears prima facie within the sphere of circulation.</p>
+<p>[^fn20]: <strong>By the purchase of labour-power, the capitalist incorporates labour, as a living ferment, with the lifeless constituents of the product</strong><em>. From his point of view, the labour-process is nothing more than the consumption of the commodity purchased, i.e., of labour-power; but this consumption cannot be effected except by supplying the labour-power with the means of production. The labour-process is a process between things that the capitalist has purchased, things that have become his property. The product of this process belongs, therefore, to him, just as much as does the wine which is the product of a process of fermentation completed in his cellar.</em>  Capital, Volume 1 - Part II - chapter 7</p>
+<p>[^fn21]: <strong>The fact that half a day’s labour is necessary to keep the labourer alive during 24 hours, does not in any way prevent him from working a whole day.</strong> <em>Therefore, the value of labour-power, and the value which that labour-power creates in the labour-process, are two entirely different magnitudes; and this difference of the two values was what the capitalist had in view, when he was purchasing the labour-power. The useful qualities that labour-power possesses, and by virtue of which it makes yarn or boots, were to him nothing more than a conditio sine qua non; for in order to create value, labour must be expended in a useful manner. What really influenced him was the specific use-value which this commodity possesses of being a source not only of value, but of more value than it has itself.</em> Capital, Volume 1 - Part II - chapter 7</p>
+<p>[^fn22]: <strong>As soon as this process of transformation has sufficiently decomposed the old society from top to bottom</strong>, as soon as the labourers are turned into proletarians, their means of labour into capital, as soon as the capitalist mode of production stands on its own feet, then the further socialisation of labour and further transformation of the land and other means of production into socially exploited and, therefore, common means of production, as well as the further expropriation of private proprietors, takes a new form.<em> </em><em>That which is now to be expropriated is no longer the labourer working for himself, but the capitalist exploiting many labourers.</em><em> </em>This expropriation is accomplished by the action of the immanent laws of capitalistic production itself, by the centralisation of capital.<em> </em><em>One capitalist always kills many</em><strong>.Hand in hand with this centralisation, or this expropriation of many capitalists by few, develop, on an ever-extending scale, the co-operative form of the labour-process, the conscious technical application of science, the methodical cultivation of the soil, the transformation of the instruments of labour into instruments of labour only usable in common, the economising of all means of production by their use as the means of production of combined, socialised labour, the entanglement of all peoples in the net of the world-market, and with this, the international character of the capitalistic régime. Along with the constantly diminishing number of the magnates of capital, who usurp and monopolise all advantages of this process of transformation, grows the mass of misery, oppression, slavery, degradation, exploitation; but with this too grows the revolt of the working-class, a class always increasing in numbers, and disciplined, united, organised by the very mechanism of the process of capitalist production itself.<em> **The monopoly of capital becomes a fetter upon the mode of production</em></strong>, which has sprung up and flourished along with, and under it.<strong>Centralisation of the means of production and socialisation of labour at last reach a point where they become incompatible with their capitalist integument</strong>. Thus integument is burst asunder. The knell of capitalist private property sounds. <strong>The expropriators are expropriated</strong>*.</p>
+<p>[^fn9]: "It is worthwhile to remark that a product is no sooner created than it, from that instant, affords a market for other products to the full extent of its own value. When the producer has put the finishing hand to his product, he is most anxious to sell it immediately, lest its value should diminish in his hands. Nor is he less anxious to dispose of the money he may get for it; for the value of money is also perishable. But the only way of getting rid of money is in the purchase of some product or other. Thus the mere circumstance of creation of one product immediately opens a vent for other products." J.B. Say A treatise on Political Economy.
+[^fn10]: "It has been thought by some very able writers, that although <strong>there may easily be a glut of particular commodities, there cannot possibly be a glut of commodities in general;</strong>  because, according to their view of the subject, commodities being always exchanged for commodities,  one half will furnish the market for the other half, and <strong>production being the only source of demand</strong>, an excess in the supply of one article merely proves a deficiency in the supply of some other, and a general excess is impossible. <strong>M. Say</strong>, in his distinguished work on political economy, has indeed gone so far as to state that the consumption of a commodity by taking it out of the market diminishes demand, and the production of a commodity proportionally increases it. <strong>This doctrine, however [...], appears to me to be utterly unfounded and completely to contradict the great principles which regulate supply and demand.</strong>"</p>
+</article>
 </div>
-
-    </body>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+<script src="../javascripts/mermaid.js"></script>
+<script src="../javascripts/mathjax.js"></script>
+<script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
 </html>
