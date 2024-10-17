@@ -5,7 +5,7 @@ subject: Course
 keywords: [History, Economic, Analysis]
 ---
 # History of Economic Analysis
-[toc]
+
 
 ## Introduction
 
