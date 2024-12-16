@@ -5,6 +5,7 @@ subject: Course
 keywords: [History, Economic, Analysis]
 ---
 # History of Economic Analysis
+[toc]
 
 ## Introduction
 
@@ -35,55 +36,17 @@ We will trace the development of two principal strands of intellectual effort in
 
 *So let us embark on this fascinating journey through the history of economic analysis - exploring the key ideas, debates, and figures that shaped the evolution of economic thought, and in doing so, enriching our understanding of the economic forces that shape our world.*
 
-# PART I
+<center><img width="600px" class="plain" src='assetsHT/PART_1.svg'  ></center>
 
-## The Age of Political Economy
+<center><img  class="plain" src='assetsHT/PART2b.svg' ></center>
+
+<center><img height="600px"  class="plain" src='assetsHT/PART3b.svg' ></center>
+
+The figures above shows a tree diagram with some of the key thinkers we will encounter. While we won't delve into every author in equal depth, and you may not remember every detail, engaging with these original texts and models will provide a rich understanding of the foundations of economic thought. Models are oriented to economists while students with different background can skip them if they wish so.
+
+## PART I: The Age of Political Economy
 
 The first part of our course is dedicated to the era known as the Age of Political Economy, the precursor to what we now call Economics.
-
-```mermaid
-flowchart TD
-     subgraph ide0 [ETHICS]
-     	A1(Aristotle 350BC) --> A2(Thomas Aquinas 1224-1274)
-     end
-     subgraph ide1 [POLITICAL ECONOMY]
-     subgraph ide11 [Mercantilists]
-        B1(Thomas Mun 1571-1641)       
-                    end
-                    subgraph ide12 [Enlightenment Philosophers]
-                    B2(Hume 1711-1776) --> M1{our first model: <br/> price-specie}
-                    end
-                    subgraph ide13 [Physiocrats]
-                    B3(Richard Cantillon 1680-1734)
-                    B4(Francois Quesnay 1694-1774)
-                    end
-                    
-                    subgraph ide21 [Classics]
-                    B2 --> C1
-                    B4 --> C1 
-                    C1(Adam Smith 1723-1790)
-                    C2(David Ricardo 1772-1823)
-                    B1 --- C1
-                    C1 --> C2
-                    C1 --> C3(John Stuart Mill 1806-1873)
-                    C1 --> C4(Thomas Malthus 1766-1834)
-                    M2{Second Model: <br/> Classical System}
-                    end
-                    subgraph ide22 [Marxism]
-                    C2 -.-> D1(Karl Marx 1818-1883)
-                    B4 -.-> D1
-                    M3{Third Model:  <br/> 2 sectors reproduction}
-                    end
-            end
-            subgraph ide2 [ECONOMICS I]
-            end
-            ide0 ==> ide1
-            ide0 ==> ide1
-            ide1 ==> ide2
-            ide1 ==> ide2
-```
-
-The figure above shows a tree diagram with some of the key thinkers we will encounter in Part I. The diamonds represent small mathematical models developed by Paul Samuelson to formalize specific ideas. While we won't delve into every author in equal depth, and you may not remember every detail, engaging with these original texts and models will provide a rich understanding of the foundations of economic thought. Models are oriented to economists while students with different background can skip them if they wish so.
 
 Before diving into the Age of Political Economy, it's essential to understand the intellectual landscape that preceded it. We will begin by examining the ethical and philosophical foundations laid in ancient Greece, which had a lasting impact on economic thought. These early ideas, particularly those of Aristotle, addressed crucial questions such as fair prices, usury, and the role of economics in society. Aristotle's works, including "Politics" and "Nicomachean Ethics," provided a more explicit and systematic treatment of economic issues than earlier thinkers, setting the stage for centuries of debate and development.
 
@@ -198,7 +161,7 @@ Francis Bacon, although influenced by Machiavelli, tilts the balance towards rea
 
 In the 17th and 18th centuries, a diverse group of thinkers - philosophers, public servants, merchants, and even physicians - sought to understand the economy in a more systematic and analytical way. Moving beyond the narrow ethical concerns of earlier periods, they asked new questions about the sources of national wealth, the effects of government intervention, the role of money and trade, and the flows of goods and money between sectors. This marked the birth of Political Economy as a distinct field of inquiry. One of the first question regarded foreign trade.
 
-#### Mercantilism
+### Mercantilism
 
 In the 17th century, one puzzling question was the performance of the Dutch. Holland was a small country that had only come into existence in the 1580s after a revolt against its Spanish Hapsburg rulers.  But it had managed to spectacularly transform itself into one of the wealthiest countries in the world, with outposts that stretched across the globe, from Nagasaki to New Amsterdam, from the Artic Circle to South Africa, and whose citizens enjoyed probably the highest standard of living of that time. Holland had a small population, very little land, and virtually no natural resources. However, Holland maintained a favorable balance of trade with foreign countries: they exported expensive 'high-value' manufactured goods (notably finished cloth and iron goods like tools, guns, etc.) and only imported cheap 'low-value' primary commodities (raw wool and iron ore, inputs needed for their industries). That meant foreign money (gold & silver) constantly flowed into Holland. The 'Mercantilist' policy formula was quickly devised: Export as much as possible and import as little as possible. Make sure your exports are high-value goods – luxuries, manufactures – which will bring in a lot of money. If you must import, import only essential low-value goods that are absolutely necessary for your industries – that is, only raw materials and other basic necessities you simply cannot find at home.
 
@@ -346,7 +309,7 @@ Here a small explanation of the Tableau:
   He viewed this system as a natural order and therefore laissez-faire would be best. A second implication was to simplify tax system and create a unique tax on the produit net.  And here a picture of the original one published in 1758:
   ![Tableau](assetsHT/Quesnay.png)
   
-## Political Economy
+### Political Economy
 
 The industrial revolution that started in the United Kingdom in the second part of the 18th century strongly impacted economic thinking. In 1776, **Adam Smith** (1723-1790), a former professor of Moral Philosophy at the University of Glasgow, published the Wealth of Nations (WoN).  The WoN is usually identified as the first "textbook" in Political Economy, composed of 5 books on the workings of a Society of Perfect Liberty. It represents a synthesis that organized economic thought for the following 40 years. While it is usually identified with the "invisible hand," its contents are better described as an overarching effort to conceptualize the forces and the social organization that result in the phenomena of economic growth. Smith's treatise went against the British laws that restricted internal and external commerce, many of which had been introduced during the Mercantilist era, and proposed a new reformed system of 'natural liberty.' The latter required the careful exposition of the economic principles underlying the system.  
 
@@ -620,7 +583,7 @@ Key differences:
 
 We now present the distributional and growth model that synthetize the thoughts of the Classics in the famous Samuelson's formulation
 
-#### Canonical Model of Classical Growth and Redistribution (Samuelson)
+##### Canonical Model of Classical Growth and Redistribution (Samuelson)
 
 We have reported through the above quotes that Adam Smith, David Ricardo, Thomas Robert Malthus, and John Stuart Mill shared a common dynamic model of growth and distribution. Samuelson presents us with a model "stripped down to its minimal essentials" to characterize in mathematical terms the ideas that were common to the Classical economists. Of course, any simple codification of the classical economists' discursive writings is an oversimplification. Still, as mentioned in the introduction, it can be useful to identify the main mechanisms and logical coherence. Let us list the model ingredients that map to the Classical economist's writings:
 1. Real output $Q_t$ is divided interchangeably between consumption $C_t$ and capital formation $\dot{K}_{t}$ implying $$Q_{t}=C_{t}+\dot{K}_{t}$$.
@@ -1024,7 +987,7 @@ graph TD
     E --> Q
 ```
 
-# PART II: The Age of Economics
+## PART II: The Age of Economics
 
 The second part of the course examines the emergence of "Economics" as a distinct discipline. While Alfred Marshall popularized the term, its modern usage was established in William Stanley Jevons's second edition of "Principles." This marked a fundamental shift from Classical Political Economy to modern Economics. Where Classical economists primarily focused on price formation (value theory), resource distribution across social classes, and mechanisms of economic growth, the new approach emphasized individual decision-making by consumers and firms, supported by mathematical formalization.
 
@@ -1794,7 +1757,7 @@ Marshall partial equilibrium analysis has proven to be very useful to simplify c
 
 Writing during Victorian England's industrial peak, Marshall aimed to establish economics as a rigorous science while maintaining its practical relevance. His work successfully displaced Mill's Principles as the standard economics textbook, and his influence on microeconomic teaching continues today. His gradual approach to economic change, captured in the motto "Natura non facit saltum," reflected both his evolutionary perspective and his belief that while capitalism had flaws, it remained the best available system for promoting both economic efficiency and human progress, provided it was properly regulated to serve social ends. This comprehensive approach, bridging classical and neoclassical economics while maintaining focus on real-world applicability, helped establish economics as both an academic discipline and a practical tool for understanding markets and guiding policy.
 
-# PART III: Macroeconomics and Econometrics
+## PART III: The birth of Macroeconomics and Econometrics
 
 ### Macroeconomics
 
@@ -2026,7 +1989,7 @@ Methodologically, Keynes advocated focusing on a small number of key variables i
 
 In its broad philosophical sweep, Keynes's General Theory provided a new foundation for managing market economies that dominated the mid-20th century. It implied a middle ground between pure laissez-faire and full socialization, with a permanent but limited economic role for the state. While many of the specific theoretical and policy debates have evolved, the broader Keynesian vision of a mixed economy remains influential to this day.
 
-#### The General Theory
+##### The General Theory
 
 Keynes famous book, the General Theory of Employment, Interest and Money (1936) was a revolutionary work (as Klein 1947, so rightly termed it) which he wrote under the constant stimulus and criticism of his colleagues and students – and with which he changed the face of monetary theory, laid the foundation for its development into macroeconomic theory, and defined the analytical framework and research programme of this theory for decades to come. Keynes was well trained in neo-classic economics[^fnky1] and had made some contributions mentioned above in monetary theory. However in front of the quasi economic and financial collapse of the West he created what he saw as a more general theory on the allocation of aggregate resources than the neoclassical one that he relegated to a special case that would occur under very special, almost laboratory, circumstances. In his novel[^fnky2] theory expectations about the future and a functioning of demand and supply that rejected of Say's law would determine the aggregate employment and level of activity.
 
@@ -2608,7 +2571,7 @@ and find the parameters by maximizing it (can use the reduced form if exactly id
 
 > The patient reader, now at the end of our analysis, might well be left with the feeling that the approach we have outlined, although simple in point of principle, in most cases would involve a tremendous amount of work. He might remark, sarcastically, that it would take him a lifetime to obtain one single demand elasticity. And he might be inclined to wonder: Is it worth while? Can we not get along, for practical purposes, by the usual short-cut methods, by graphical curve- fitting, or by making fair guesses combining our general experiences with the inference that appears reasonable from the particular data at hand? In other quantitative sciences the discovery of laws, even in highly specialized fields, has moved from the private study into huge scientific laboratories where scores of experts are engaged, not only in carrying out actual measurements, but also in working out, with painstaking precision, the form ulae t ments to be made. Should we expect less in economic research, if its results are to be the basis for economic policy upon which might depend billions of dollars of national income and the general economic welfare of millions of people?
 
-# PART IV: The age of mathematics
+## PART IV: Formalizations and advances: 1920's-1960's
 
 #### Frank Ramsey
 
@@ -2913,15 +2876,15 @@ and capital deepening to growth.
 
 Solow (and those who have followed in his tradition) solved the previous equation for the residual , $\frac{\dot{A}}{A}$, that will take Solow name given that all the other terms are measurable. Doing so for the years 1909–1949 led Solow to the conclusion that only about one-eighth of the advance of $q$  over those 40 years could be attributed to capital deepening, leaving about seven-eighths to ‘the residual’. This surprising (at the time) conclusion has, of course, changed numerically over the years as Solow’s technique was refined and replicated on newer data. But the qualitative finding that technological change is far more important than capital deepening has held up extremely well.
 
-![image-20231205182310029](C:/Users/ffranco/Dropbox/ClassNotes/Prova/assetsHT/Solow3.png)
+![image-20231205182310029](assetsHT/Solow3.png)
 
 What about the shape of the aggregate production function (9)? Does it really display the curvature implied by diminishing returns? By using his synthetic time series on $A(t)$, it was a simple matter of arithmetic to compute a time series on $f(k)$ and then to inspect the shape.
 
-![image-20231205181903515](C:/Users/ffranco/Dropbox/ClassNotes/Prova/assetsHT/Solow2.png)
+![image-20231205181903515](assetsHT/Solow2.png)
 
 Eyeballing the scatter plot gave Solow ‘an inescapable impression of curvature, of persistent but not violent diminishing returns’.
 
-![image-20231205182344501](C:/Users/ffranco/Dropbox/ClassNotes/Prova/assetsHT/Solow4.png)
+![image-20231205182344501](assetsHT/Solow4.png)
 
 ##### The Neoclassical Synthesis
 
@@ -2933,7 +2896,7 @@ The term ‘neoclassical synthesis’ appears to have been coined by Paul Samuel
 >
 > ...the period 1861-1913, during which the trade-union movement was rather weak, shows a fairly close relationship between the percent change in wage rates and the fraction of the labor force unemployed...A Closer Look at the American Data. 
 >
-> ![Phillips](C:/Users/ffranco/Dropbox/ClassNotes/Prova/assetsHT/Phillips.PNG)
+> ![Phillips](assetsHT/Phillips.PNG)
 >
 > ...Wage rates do tend to rise when the labor market is tight, and the tighter the faster. What is most interesting is the strong suggestion that the relation, such as it is, has shifted upward slightly but noticeably in the forties and fifties...
 >
@@ -3125,6 +3088,12 @@ Another line of disagreement with the neoclassical synthesis was the Phillips Cu
 > Much current economic research is devoted to exploring various aspects of this second stage---the dynamics of the process, the formation of expectations, and the kind of systematic policy, if any, that can have a predictable effect on real magnitudes. We can expect rapid progress on these issues. (Special mention should be made of the work on "rational expectations," especially the seminal contributions of John Muth, Robert Lucas, and Thomas Sargent; see Muth [1961], Gordon [1976].)
 
 Throughout the 1960s the trade-off between unemployment and inflation appeared more and more illusory. Unemployment went up but inflation did not go down; it also increased. Into the 1970s and particularly during the great inflationary recession of 1974/75, when both inflation and unemployment reached new highs in most Organisation for Economic Co-operation and Development (OECD) countries, it appeared that only Friedman’s view made any sense. Like Keynes’s General Theory, it was one of the very few contributions that changed both the approach of professional economists and the policies adopted by finance ministers.
+
+## Part V: The mathematization of Economics
+
+#### John Von Neumann
+
+#### Kenneth Arrow	
 
 ## References  
 
