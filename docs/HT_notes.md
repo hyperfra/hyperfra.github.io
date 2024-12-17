@@ -829,7 +829,7 @@ $$b_{1}K_{t+1}+b_{2}Y_{t+1}\leqq K_{t}$$
 
 which represent the economy production possibilities. Given $K_{t}$ and $L_{t}$ this can be portrayed for example as in 1 (a) which shows what can be produced with the given inputs and with $K_{t+1}$ and $Y_{t+1}$ given as in 1 (b) which shows what inputs you need to produce those level of outputs. With growth the corner A will move northwest or southwest and the corner A' northeast. 
 
-![](assetsHT\Marx_1.png)
+![](assetsHT/Marx_1.png)
 
 The relative prices $\frac{p_{2,t+1}}{p_{1,t+1}}$ must be equal to the slope of the Production possibility frontier at the production point actually observed. The relative prices of inputs $\frac{w_{t}}{p_{1,t}}$ can be any non negative number.
 
@@ -1286,8 +1286,6 @@ Jevons introduces two crucial distinct concepts:
 
 1. The "amount of capital invested" - the physical quantity of inputs in the production process
 2. The "amount of investment of capital" - the physical quantity multiplied by the time
-
-![image-20241110170831322](/Users/ffranco/Library/Application Support/typora-user-images/image-20241110170831322.png)
 
 In this diagram, production begins at time 0 and ends at time T. The rectangles represents cumulative capital addition until the final output is realized. The total amount of capital invested (I*) can be expressed as: I* = ∑ᵀₜ₌₀ I_t. The "amount of investment of capital" is represented by the entire area. With θ = T/2 as the average time of investment, this can be expressed as θI* = TI*/2. He held that it is possible to increase production by increasing the amount of the investment, or by extending its average period. This is the first appearance of the concept of the marginal productivity of capital.
 
@@ -1883,7 +1881,7 @@ According to James Tobin, Fisher is regarded as one of the greatest economist Am
 
 One of the main innovation of the book is that Fisher extended general equilibrium theory to intertemporal choices and relationships, a crucial step for the analysis of macroeconomic phenomena such as business cycles and growth. Walras had also analysed the dynamic extension of his model, but the level of generalization of Walras was such that the exposition was difficult to follow.  Fisher saw that intertemporal dependences were tricky enough to justify isolating them from the intercommodity complexities and proceeded as if there were just one aggregate commodity to be produced and consumed at different dates. His consumer-saving model in two periods is still presented in modern text book to explain the optimal allocation of consumption across time. But Fisher went well beyond that and presented, first in words, then with a figure and finally using mathematics, a two periods model with consumption, production and a loan market.  Fisher’s theory of individual saving is basically the standard model to this day where a family of indifference curves in the two commodities consumption now $c_1$ and consumption later $c_2$ confront a budget constraint $c_1 + c_2/(1 + r) =y_1 + y_2/(1 + r)$, where the $y$’s are exogenous wage incomes in the two periods and $r$ is the (real)market interest rate. On the side of technology he assumed that the ‘investment opportunities’  available to an individual can be summarized in the terms on which consumption at any date can be traded, with‘ nature’, for consumptions at other dates. Fisher, then, assumed complete intertemporal loan markets cleared by real interest rates, count equations, and show that in principle the equalities of saving and investment at every date determine all interest rates and the paths of consumption and production for all individuals and for the society. Here is the original figure of his book.
 
-![Fisher1](/Users/ffranco/Library/CloudStorage/Dropbox/ClassNotes/Prova/assetsHT/Fisher1.png)
+![Fisher1](assetsHT/Fisher1.png)
 
 > Chart 38 pictures the double movementof Individual **1.** Starting at $O'_1$,: he moves along the Opportunity line to $P_1$ where the Opportunity line becomes tangent to the $M$  line, then along the $M$ line to $Q_1$ where the *M* line becomes tangent to a $W_1$  line. That is, the fixed rate of interest will cause the individual so to shift that the marginal rate of return overcost (investment opportunity rate and the marginal rate of time preference (degree of impatience) will, each of them, be equal to the market rate of interest. Chart 38 depicts Individual *1’s* adjustment of his rate of investment opportunity and his degree of impatience to the market rate of interest. The rate of interest is, as always, represented in the slope  of the $M$  line, and the rate of return over cost is represented in the slope at $P_1$ of the $O_1$ line. These two slopes are the same, since the two lines are there tangent. The degree of impatience is represented by the identical slopes of the M line and of the $W_1$ line at their point of tangency $Q_1$. Since the M line is a straight line, the slopes of the O, line and the M line at $P_1$ and the slope of the M line and the $W_1$ line at $Q_1$ are all identical and the identity of the opportunity rate, the impatience rate, and the market rate is shown.
 
